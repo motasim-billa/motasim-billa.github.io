@@ -6,6 +6,11 @@
 #
 # Media: uploads are stored in the assets folder and referenced by path
 # (e.g. assets/news-example.jpg), the same way the site already links images.
+#
+# Schema note: every repeatable list is declared as type: object with
+# list: true and its own fields list, so the panel renders each item as an
+# expandable, individually editable card. Lists of plain text lines are
+# type: string with list: true.
 media:
   input: assets
   output: /assets
@@ -36,7 +41,8 @@ content:
             type: text
           - name: bio
             label: Bio paragraphs (one item per paragraph)
-            type: list
+            type: string
+            list: true
           - name: email
             label: Email address
             type: string
@@ -70,14 +76,16 @@ content:
             type: text
           - name: groups
             label: Year groups
-            type: list
+            type: object
+            list: true
             fields:
               - name: label
                 label: Group label (e.g. “2026” or “In progress”)
                 type: string
               - name: entries
                 label: Publications in this group
-                type: list
+                type: object
+                list: true
                 fields:
                   - name: title
                     label: Title
@@ -117,10 +125,12 @@ content:
             type: text
           - name: introParagraphsHtml
             label: Intro paragraphs (HTML — <i>…</i> italicises newspaper names, <b>…</b> is bold)
-            type: list
+            type: string
+            list: true
           - name: articles
             label: Newspaper articles (in display order — the first one is the wide featured card)
-            type: list
+            type: object
+            list: true
             fields:
               - name: headline
                 label: Headline (English)
@@ -179,7 +189,8 @@ content:
             type: text
           - name: stories
             label: Stories
-            type: list
+            type: object
+            list: true
             fields:
               - name: id
                 label: Page address (e.g. story-cci — the page opens at #story-cci)
@@ -217,10 +228,12 @@ content:
                 type: string
               - name: paragraphsHtml
                 label: Story text (one item per paragraph, HTML allowed)
-                type: list
+                type: string
+                list: true
               - name: sections
                 label: Extra headed sections (used by “Beyond the desk”)
-                type: list
+                type: object
+                list: true
                 required: false
                 fields:
                   - name: heading
@@ -228,7 +241,8 @@ content:
                     type: string
                   - name: paragraphsHtml
                     label: Paragraphs (one item per paragraph, HTML allowed)
-                    type: list
+                    type: string
+                    list: true
       - name: cv
         label: CV Page
         type: object
@@ -244,7 +258,8 @@ content:
             type: string
           - name: rows
             label: CV table rows
-            type: list
+            type: object
+            list: true
             fields:
               - name: label
                 label: Row label
@@ -254,7 +269,8 @@ content:
                 type: text
           - name: checklist
             label: Site checklist
-            type: list
+            type: object
+            list: true
             fields:
               - name: text
                 label: Item
@@ -264,7 +280,8 @@ content:
                 type: boolean
           - name: profileLinks
             label: Profile links (buttons)
-            type: list
+            type: object
+            list: true
             fields:
               - name: label
                 label: Label
@@ -274,7 +291,8 @@ content:
                 type: string
           - name: pendingLinks
             label: Profiles still to add (shown as placeholders)
-            type: list
+            type: object
+            list: true
             fields:
               - name: label
                 label: Label
