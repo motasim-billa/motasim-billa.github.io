@@ -761,7 +761,7 @@
     "tabTitle": "Chronicles — Md Motasim Billa",
     "folio": "Chronicles",
     "heading": "Chronicles",
-    "intro": "The chapters behind the CV — the fellowship year, the student leadership, the road from a Dhaka newsroom to a library, and life beyond the desk. The facts and dates live on the CV page; these are the experiences I would rather tell properly.",
+    "intro": "The chapters behind the CV — the fellowship year and the student leadership. The facts and dates live on the CV page; these are the experiences I would rather tell properly.",
     "stories": [
       {
         "id": "story-cci",
@@ -797,60 +797,7 @@
           "It taught me things no classroom had. Leadership, I learned, is mostly listening carefully and following through — doing the unglamorous work between meetings that makes the visible work possible. In the same season I coordinated Surjasen Bitarka Dhara, the debating circle of Surjasen Hall (2020), which sharpened the other half of the skill: building an argument, defending it in public, and losing one gracefully. Those Dhaka years — organizing, debating, reporting for the campus paper — are the foundation everything since has been built on."
         ],
         "sections": []
-      },
-      {
-        "id": "story-newsroom",
-        "tabTitle": "From the Newsroom to the Library — Md Motasim Billa",
-        "title": "From the newsroom to the library",
-        "cardMeta": "2019 – 2024 · Dhaka",
-        "introHtml": "My working life began in print — campus correspondent for <i>Shomoyer Alo</i>, then data journalist at <i>Bangladesh Post</i>. This is how the newsroom, the library, and the lab led me to information science.",
-        "image": "assets/news-digital-library.jpg",
-        "imageAlt": "His Shomoyer Alo interview with Dhaka University’s librarian, headlined “The dream of building a complete digital library”",
-        "badgeText": null,
-        "badgeSub": null,
-        "pageMeta": "2019 – 2024 · Dhaka",
-        "paragraphsHtml": [
-          "My working life began in print. In 2019 I was the Dhaka University correspondent for the Bengali daily <i>Shomoyer Alo</i>, covering admission reform, campus movements, and the small human stories in between — the clippings are on the <a href=\"#writing\" data-view-link=\"writing\">Newspaper Writing page</a>. After my degree I joined <i>Bangladesh Post</i> as a data journalist (2023–24) and wrote more than 200 data-informed, analytical articles, turning budgets and official statistics into reporting readers could check for themselves.",
-          "Alongside the newsroom ran the library and the lab: an internship at Dhaka University Library in 2023, working through cataloging, classification, and user services at Bangladesh’s largest academic library; and a data science internship at Somikoron AI (2022–23), building an NLP-based recommendation system. Journalism taught me to interrogate data; the library taught me how knowledge is organized and kept; the internship taught me to compute with text. Information science is where those three threads join — and at UALR, as a graduate assistant in JMC supporting faculty teaching and research, I now work on the other side of the systems I once reported on."
-        ],
-        "sections": []
-      },
-      {
-        "id": "story-beyond",
-        "tabTitle": "Beyond the Desk — Md Motasim Billa",
-        "title": "Beyond the desk",
-        "cardMeta": "Reading · Debating · Volunteering",
-        "introHtml": "Reading well past bedtime, debating at Surjasen Hall, and reading one-to-one with young students in Virginia — some of what fills the hours when I am not counting citations.",
-        "image": "assets/news-reading-feature.jpg",
-        "imageAlt": "His feature article “Reading for pleasure boosts kids’ brain development”, with a photograph of a young girl reading in a library",
-        "badgeText": null,
-        "badgeSub": null,
-        "pageMeta": "Reading · Debating · Volunteering",
-        "paragraphsHtml": [
-          "This site is academic, but it is also mine — so here is some of what fills the hours when I am not counting citations."
-        ],
-        "sections": [
-          {
-            "heading": "Reading",
-            "paragraphsHtml": [
-              "Reading for pleasure is a habit I have argued for in print: my feature “Reading for pleasure boosts kids’ brain development” grew out of research I could not stop thinking about — and out of a childhood spent reading well past bedtime. The habit has survived graduate school; there is always a book on the desk that has nothing to do with the thesis."
-            ]
-          },
-          {
-            "heading": "Debating",
-            "paragraphsHtml": [
-              "At the University of Dhaka I coordinated Surjasen Bitarka Dhara, the debating circle of Surjasen Hall, in 2020, and served as president of the university unit of the Bangladesh Youth Initiative in 2020–21. Debating taught me to build an argument under time pressure — and, just as usefully, to lose one gracefully."
-            ]
-          },
-          {
-            "heading": "Tutoring & volunteering",
-            "paragraphsHtml": [
-              "During my exchange year in Virginia I volunteered as a Book Buddy with Alexandria City Public Schools (2021–22), reading one-to-one with young students each week. It remains some of the most rewarding time I have spent in the United States — and it circles back to the reading I still love."
-            ]
-          }
-        ]
-      }
-    ]
+      }    ]
   },
   "cv": {
     "tabTitle": "CV — Md Motasim Billa",
