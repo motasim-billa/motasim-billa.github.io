@@ -34,7 +34,7 @@
   a{color:var(--maroon);text-decoration:none}
   a:hover{text-decoration:underline}
   img{max-width:100%;display:block}
-  .wrap{max-width:1020px;margin:0 auto;padding:0 20px}
+  .wrap{max-width:1240px;margin:0 auto;padding:0 32px}
   /* header */
   header.site{position:sticky;top:0;z-index:20;background:color-mix(in srgb, var(--bg) 92%, transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
   .nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:13px 0}
@@ -51,7 +51,7 @@
   /* page views — one visible at a time, switched by the top menu */
   .view{padding:44px 0 48px}
   .view[hidden]{display:none}
-  .view-head{margin-bottom:22px;max-width:680px}
+  .view-head{margin-bottom:22px;max-width:880px}
   .view-head h2{font-family:"Newsreader",serif;font-size:36px;line-height:1.05;margin:0;letter-spacing:-.01em}
   .view-head p{margin:9px 0 0;color:var(--muted);font-size:15.5px}
   .folio{font-family:"IBM Plex Mono",monospace;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);font-weight:600;display:block;margin-bottom:8px}
@@ -61,10 +61,10 @@
   h1{font-family:"Newsreader",serif;font-size:clamp(42px,6.4vw,64px);line-height:1;letter-spacing:-.02em;margin:0}
   h1 em{font-style:italic;font-weight:500}
   /* nameplate rule — thick over thin, like a newspaper masthead */
-  .nameplate{border-top:3px solid var(--text);border-bottom:1px solid var(--text);height:5px;margin:20px 0 0;max-width:640px}
-  .role{font-size:19px;line-height:1.45;margin:14px 0 0;max-width:600px}
+  .nameplate{border-top:3px solid var(--text);border-bottom:1px solid var(--text);height:5px;margin:20px 0 0}
+  .role{font-size:19px;line-height:1.45;margin:14px 0 0;max-width:880px}
   .role strong{font-weight:700}
-  .lede{margin:10px 0 0;color:var(--muted);font-size:16px;max-width:600px}
+  .lede{margin:10px 0 0;color:var(--muted);font-size:16px;max-width:880px}
   .hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
   .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 16px;border-radius:999px;font-weight:600;font-size:14.5px;border:1px solid var(--line-2);background:var(--surface);color:var(--text);cursor:pointer;font-family:inherit}
   .btn:hover{text-decoration:none;transform:translateY(-1px)}
@@ -72,24 +72,24 @@
   @media (prefers-color-scheme: dark){.btn.primary{background:#8e2a3d;border-color:#8e2a3d}}
   .btn.primary:hover{background:var(--maroon-2)}
   /* narrative prose */
-  .prose{max-width:680px}
+  .prose{max-width:880px}
   .prose p{margin:0 0 14px;font-size:16px}
   .bio p{margin:0 0 1em}
   .bio p:last-child{margin-bottom:0}
   .prose p:last-child{margin-bottom:0}
   .sub-block{padding:34px 0 0;margin-top:38px;border-top:1px solid var(--line)}
   .sub-block > h3{font-family:"Newsreader",serif;font-size:26px;line-height:1.1;margin:0 0 6px;letter-spacing:-.01em}
-  .sub-block > .sub-lede{margin:0 0 18px;color:var(--muted);font-size:15px;max-width:640px}
+  .sub-block > .sub-lede{margin:0 0 18px;color:var(--muted);font-size:15px;max-width:880px}
   /* publications — the focus */
   .pub-group{padding:18px 0;border-top:1px solid var(--line)}
   .pub-group:first-of-type{border-top:none;padding-top:2px}
   .pub-group h3{font-size:13px;letter-spacing:.1em;text-transform:uppercase;font-family:"IBM Plex Mono",monospace;font-weight:600;color:var(--maroon);margin:0 0 8px}
-  .pub-group p{margin:0;color:var(--muted);font-size:15px;max-width:640px}
+  .pub-group p{margin:0;color:var(--muted);font-size:15px}
   .pub-entry{padding:12px 0 2px}
   .pub-entry .pt{font-family:"Newsreader",serif;font-size:18.5px;line-height:1.32;font-weight:600;display:block}
-  .pub-entry .pa{margin:5px 0 0;font-size:14.5px;color:var(--muted);max-width:720px}
+  .pub-entry .pa{margin:5px 0 0;font-size:14.5px;color:var(--muted)}
   .pub-entry .pa b{color:var(--text)}
-  .pub-entry .pub-note{margin:5px 0 0;font-size:13.5px;color:var(--faint);max-width:720px}
+  .pub-entry .pub-note{margin:5px 0 0;font-size:13.5px;color:var(--faint);max-width:880px}
   .status{display:inline-block;font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;font-weight:500;padding:2px 8px;border-radius:999px;background:var(--chip);color:var(--maroon);margin-left:8px;vertical-align:2px;white-space:nowrap}
   .ptype{display:inline-block;font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;font-weight:600;padding:2px 8px;border-radius:4px;border:1px solid var(--line-2);background:var(--surface-2);color:var(--navy);margin-left:8px;vertical-align:2px;white-space:nowrap}
   /* research */
@@ -100,7 +100,7 @@
   .keywords{margin:18px 0 0;color:var(--muted);font-size:13.5px}
   .keywords b{color:var(--faint);font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:500;margin-right:10px}
   /* newspaper writing — framed clippings; cards show Part 1 only, the continuation opens on click */
-  .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  .gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
   figure.clipping{margin:0;background:var(--surface);border:1px solid var(--line-2);padding:10px 10px 14px;box-shadow:var(--frame-shadow);display:flex;flex-direction:column}
   figure.clipping.wide{grid-column:span 2}
   .part-tag{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);font-weight:600;display:block;margin:2px 2px 8px}
@@ -112,7 +112,7 @@
   figcaption .hl{font-family:"Newsreader",serif;font-size:16.5px;line-height:1.3;font-weight:600;display:block}
   figcaption .hl-bn{display:block;margin-top:3px;font-size:13.5px;color:var(--text);opacity:.85;line-height:1.5}
   figcaption .meta{display:block;margin-top:7px;font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--faint)}
-  .gallery-note{margin:22px 0 0;color:var(--muted);font-size:14px;max-width:640px}
+  .gallery-note{margin:22px 0 0;color:var(--muted);font-size:14px;max-width:880px}
   /* stories — a news-portal grid of story cards; each card opens the full story as its own view */
   .story-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
   .story-card{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line-2);box-shadow:var(--frame-shadow);color:var(--text)}
@@ -166,6 +166,9 @@
   .lb-part2-img{margin:0 0 10px;border:1px solid var(--line)}
   .lb-part2-img[hidden]{display:none}
   .lb-close{position:fixed;top:14px;right:14px;width:42px;height:42px;border-radius:50%;border:1px solid rgba(255,255,255,.4);background:rgba(255,255,255,.1);color:#fff;font-size:19px;cursor:pointer;z-index:2}
+  @media (max-width:1100px){
+    .gallery{grid-template-columns:repeat(3,1fr)}
+  }
   @media (max-width:860px){
     .gallery{grid-template-columns:1fr 1fr}
     figure.clipping.wide{grid-column:span 2}
@@ -173,6 +176,7 @@
     .contact-box{flex-direction:column;align-items:stretch}
   }
   @media (max-width:640px){
+    .wrap{padding:0 20px}
     .view{padding:30px 0 38px}
     .view-head h2{font-size:30px}
     .cv-table th,.cv-table td{display:block;width:auto;padding-left:0}
