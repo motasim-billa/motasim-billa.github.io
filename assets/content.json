@@ -1,0 +1,951 @@
+{
+  "profile": {
+    "name": "Md Motasim Billa",
+    "tagline": "Information Science · UA Little Rock",
+    "nameDisplayHtml": "Md Motasim <em>Billa</em>",
+    "statusHtml": "<strong>MS student in Information Science</strong> at the University of Arkansas at Little Rock.",
+    "bio": [
+      "I am a master’s student in Information Science at the University of Arkansas at Little Rock. My studies are about something simple and important: how knowledge is made, organized, and shared — how what one person learns finds its way to others. I also care about fairness in science. The people who do the work should get the credit they deserve, and people should be able to trust what they read.",
+      "My story began in Dhaka, Bangladesh, among books and libraries. Later, I worked as a journalist. Every day I asked questions, and I learned to check what is true before I wrote it down. Then came a fellowship year in America, and it opened a whole new world to me. Step by step, that path brought me to information science, and to Arkansas.",
+      "I love travelling and seeing new places. I love exploring different fields of study, and new technology always makes me curious. I enjoy reading, and I enjoy a good debate. My road has taken me through libraries, newsrooms, and classrooms in two countries — and I am still curious about where it leads next."
+    ],
+    "email": "mbilla@ualr.edu",
+    "linkedin": "https://www.linkedin.com/in/motasimbilla13",
+    "copyright": "© 2026 Md Motasim Billa",
+    "footerNote": "Designed for GitHub Pages · motasim-billa.github.io"
+  },
+  "aboutTabTitle": "Md Motasim Billa — Information Science",
+  "publications": {
+    "tabTitle": "Publications — Md Motasim Billa",
+    "folio": "Scholarship",
+    "heading": "Publications",
+    "intro": "The center of this site — peer-reviewed and forthcoming work, grouped by year, newest first. My name appears in bold in each author list.",
+    "groups": [
+      {
+        "label": "2026",
+        "entries": [
+          {
+            "title": "The Invisible Infrastructure of Biomedical Research: An Exploratory Analysis of Software Mentions and Sentence-Level Citation Marking",
+            "type": "Journal article",
+            "status": "Under review",
+            "authorsHtml": "<b>M. M. Billa</b> (sole author) · <i>Scientometrics</i> · 2026",
+            "note": "Modern biomedical papers run on software that is usually mentioned in passing rather than cited. This study maps those software mentions across the literature and examines sentence-level citation marking — where in a paper credit is given, and what that placement says about how scholarly credit actually flows."
+          },
+          {
+            "title": "Livelock in the Agent Harness: Delegation-Induced Liveness Failure in LLM Systems",
+            "type": "Conference paper",
+            "status": "Accepted",
+            "authorsHtml": "M. Hasan, A. Khan, H. Rashid, <b>M. M. Billa</b>, S. Islam, and M. Milanova · <i>Proceedings of the IEEE International Conference on Trust, Privacy and Security in Intelligent Systems and Applications (TPS)</i> · 2026 · Application Track",
+            "note": "Studies livelock in LLM agent harnesses — systems where agents keep delegating work to one another and nothing ever finishes — and names and characterizes this delegation-induced liveness failure. To appear; one of 16 papers accepted from 146 submissions."
+          }
+        ]
+      },
+      {
+        "label": "In progress",
+        "entries": [
+          {
+            "title": "A Position-Based Citation-Credit Model for Multi-Authored Publications",
+            "type": "MS thesis",
+            "status": null,
+            "authorsHtml": "<b>M. M. Billa</b> · University of Arkansas at Little Rock · Advisor: Daniel Berleant, Ph.D.",
+            "note": "A citation is a single unit of credit, but a paper can have two authors or two hundred — and where a name sits in the byline carries information flat counting throws away. This thesis develops a position-sensitive model for allocating that credit among co-authors, and tests how different attribution choices change researcher-level bibliometric assessment."
+          }
+        ]
+      }
+    ],
+    "note": "This list will also be maintained on Google Scholar and ORCID; the profile links will be added here as they go live."
+  },
+  "newspaper": {
+    "tabTitle": "Newspaper Writing — Md Motasim Billa",
+    "folio": "Newspaper Writing",
+    "heading": "My newspaper articles",
+    "intro": "Stories and features I wrote for the press — my own bylined work, kept as clippings from the printed pages.",
+    "introParagraphsHtml": [
+      "Before graduate school I reported from Dhaka University for the Bengali daily <i>Shomoyer Alo</i> (byline: Motasim Billa Naim), covering the campus in 2019 — admission reform, student movements, and the small stories in between. From 2023 to 2024 I was a data journalist at <i>Bangladesh Post</i> in Dhaka, where I wrote more than 200 data-informed and analytical articles: turning datasets, budgets, and official statistics into evidence-based, public-interest reporting that readers could check for themselves. That newsroom training — ask what the numbers actually say, and show your working — is the same instinct I now bring to scientometrics.",
+      "Like most newspaper stories, the printed pieces below ran in <b>two parts</b>: a first part under the headline, and the rest continued — “jumped” — to an inside page. Each card below shows only the titled first part, complete and uncropped. <b>Click a clipping</b> to read it enlarged — and where the continuation page survives among my scans, it appears there, after the first part, exactly as a reader of the paper would have turned to it. Where no continuation page is among my scans, the enlarged view says so rather than filling the gap."
+    ],
+    "articles": [
+      {
+        "headline": "Reading for pleasure boosts kids’ brain development",
+        "headlineBn": null,
+        "meta": "Feature article · English-language press · By Md Motasim Billa",
+        "image": "assets/news-reading-feature.jpg",
+        "imageAlt": "Newspaper feature article headlined “Reading for pleasure boosts kids’ brain development”, bylined Md Motasim Billa, with a photo of a young girl reading in a library",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "Reading for pleasure boosts kids’ brain development — feature article, by Md Motasim Billa",
+        "jumpNote": "This feature ran as a single titled page; no inside continuation was kept with the clipping.",
+        "readHint": "Read the clipping →",
+        "wide": true
+      },
+      {
+        "headline": "Antibiotics in milk, again, in second-phase tests",
+        "headlineBn": "দ্বিতীয় দফা পরীক্ষায়ও দুধে অ্যান্টিবায়োটিক",
+        "meta": "Shomoyer Alo · 2019 · Byline: Motasim Billa Naim",
+        "image": "assets/news-milk-antibiotics.jpg",
+        "imageAlt": "Front-page newspaper story with the red Bengali headline “দ্বিতীয় দফা পরীক্ষায়ও দুধে অ্যান্টিবায়োটিক” (Antibiotics in milk again in second-phase tests), bylined Motasim Billa Naim",
+        "continuationImage": "assets/news-milk-antibiotics-2.jpg",
+        "continuationAlt": "Continuation of the milk-antibiotics report on page 9 of Shomoyer Alo: two dense Bengali text columns headed by the story’s headline repeated in small type and marked “প্রথম পৃষ্ঠার পর” (continued from page one)",
+        "caption": "Antibiotics found in milk again in second-phase tests — Shomoyer Alo, 2019. Byline: Motasim Billa Naim",
+        "jumpNote": "Part 1 ends mid-report; the line at its foot — “এরপর পৃষ্ঠা : ৯ কলাম ১” — sends the reader to page 9, column 1. The continuation below repeats the headline in small type, marked “প্রথম পৃষ্ঠার পর” (continued from page one), and carries the rest of the report: the Dhaka University researchers’ findings and the calls for the milk to be withdrawn.",
+        "readHint": "Read both parts →",
+        "wide": false
+      },
+      {
+        "headline": "A language club lights up Dhaka University",
+        "headlineBn": "ঢাবিতে আলো ছড়াচ্ছে ‘মাল্টিপল ল্যাঙ্গুয়েজ লার্নিং ক্লাব’",
+        "meta": "Campus Kahon · Shomoyer Alo · Byline: Motasim Billa Naim",
+        "image": "assets/news-language-club.jpg",
+        "imageAlt": "Newspaper campus feature with a large group photograph of Dhaka University’s Multiple Language Learning Club and the Bengali headline “ঢাবিতে আলো ছড়াচ্ছে মাল্টিপল ল্যাঙ্গুয়েজ লার্নিং ক্লাব”",
+        "continuationImage": "assets/news-language-club-2.jpg",
+        "continuationAlt": "Continuation of the language-club feature on page 11 of Shomoyer Alo: a column of Bengali text headed by the feature’s headline repeated in small type and marked “শেষ পৃষ্ঠার পর” (continued from the last page), describing the club’s classes and its roughly 800 learners",
+        "caption": "A language club lights up Dhaka University — Campus Kahon, Shomoyer Alo. Byline: Motasim Billa Naim",
+        "jumpNote": "The feature began on the back page; the line at the foot of Part 1 — “এরপর পৃষ্ঠা ১১ কলাম ৪” — sends the reader to page 11, column 4. The continuation below repeats the headline in small type, marked “শেষ পৃষ্ঠার পর” (continued from the last page), and finishes the story of the club and its learners.",
+        "readHint": "Read both parts →",
+        "wide": false
+      },
+      {
+        "headline": "DU admission test held under new rules",
+        "headlineBn": "ঢাবিতে নতুন নিয়মে ভর্তি পরীক্ষা অনুষ্ঠিত",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-du-admission.jpg",
+        "imageAlt": "Newspaper report with a photograph of a crowded admission-test hall and the Bengali headline “ঢাবিতে নতুন নিয়মে ভর্তি পরীক্ষা অনুষ্ঠিত” (DU admission test held under new rules)",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "Dhaka University admission test held under new rules — Shomoyer Alo, 2019. Dhaka University correspondent",
+        "jumpNote": "The report as kept runs to its end on this page, closing with the dates of the remaining units’ tests; no separate continuation page for it is among the scans in my archive.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      },
+      {
+        "headline": "A mass oath at BUET to stand against injustice",
+        "headlineBn": "অন্যায় ও অপশক্তিকে রুখে দিতে বুয়েটে গণশপথ",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-buet-oath.jpg",
+        "imageAlt": "Newspaper story with a photograph of a large crowd of BUET students taking an oath, headlined “অন্যায় ও অপশক্তিকে রুখে দিতে বুয়েটে গণশপথ” (Mass oath at BUET to resist injustice)",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "A mass oath at BUET to stand against injustice — Shomoyer Alo, 2019. Dhaka University correspondent",
+        "jumpNote": "As the line at the foot of this part reads — “এরপর পৃষ্ঠা : ৯ কলাম ৪” — the story jumps to page 9, column 4. That continuation page is not among the scans in my archive, so only the titled first part can be shown.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      },
+      {
+        "headline": "Staff dumped the litter; the vice-chancellor cleaned it up",
+        "headlineBn": "ময়লা ফেললেন কর্মচারীরা, পরিষ্কার করলেন উপাচার্য",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-vc-cleanup.jpg",
+        "imageAlt": "Newspaper story with the red Bengali headline “ময়লা ফেললেন কর্মচারীরা, পরিষ্কার করলেন উপাচার্য” (Staff dumped the litter; the vice-chancellor cleaned it up)",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "Staff dumped the litter; the vice-chancellor cleaned it up — Shomoyer Alo, 2019. Dhaka University correspondent",
+        "jumpNote": "This scan is cropped at the foot of the story, and no continuation page carrying this headline is among the scans in my archive, so only the titled first part can be shown.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      },
+      {
+        "headline": "“I sought the police’s help, and never got it”: DUCSU VP Nur",
+        "headlineBn": "পুলিশের কাছে সহযোগিতা চেয়েও পাইনি : ভিপি নুর",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-nur-police.jpg",
+        "imageAlt": "Newspaper story with a portrait photograph of DUCSU vice-president Nurul Haque Nur and the Bengali headline “পুলিশের কাছে সহযোগিতা চেয়েও পাইনি : ভিপি নুর”",
+        "continuationImage": "assets/news-nur-police-2.jpg",
+        "continuationAlt": "Continuation column of the Nur interview, headed by the headline repeated in small type and marked “শেষ পৃষ্ঠার পর” (continued from the last page)",
+        "caption": "“I sought police help and never got it”: DUCSU vice-president Nurul Haque Nur — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "Part 1 ends with the line “এরপর পৃষ্ঠা ১১ কলাম ১”. The continuation below repeats the headline in small type, marked “প্রথম পৃষ্ঠার পর” or “শেষ পৃষ্ঠার পর” (continued), and carries the rest of the report. Nur recounts the repeated attacks on him since June 2018 and asks for the prime minister’s intervention.",
+        "readHint": "Read both parts →",
+        "wide": false
+      },
+      {
+        "headline": "Chhatra League attack on Chhatra Dal at DU — 16 injured, journalists among them",
+        "headlineBn": "ঢাবিতে ছাত্রদলের ওপর ছাত্রলীগের হামলা",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-chhatradal-attack.jpg",
+        "imageAlt": "Newspaper story with a photograph of injured students on a stretcher in an ambulance and the red Bengali headline “ঢাবিতে ছাত্রদলের ওপর ছাত্রলীগের হামলা”, with the line “সাংবাদিকসহ আহত ১৬” (16 injured including journalists)",
+        "continuationImage": "assets/news-chhatradal-attack-2.jpg",
+        "continuationAlt": "Continuation of the Chhatra Dal attack report: two columns of Bengali text headed by the headline repeated in small type, marked “প্রথম পৃষ্ঠার পর” (continued from page one)",
+        "caption": "Chhatra League attack on Jatiyatabadi Chhatra Dal at Dhaka University — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "Part 1 ends with the line “এরপর পৃষ্ঠা : ৯ কলাম ১”. The continuation below repeats the headline in small type, marked “প্রথম পৃষ্ঠার পর” or “শেষ পৃষ্ঠার পর” (continued), and carries the rest of the report. The continuation gives the injured students’ and journalists’ accounts of the Monday attack.",
+        "readHint": "Read both parts →",
+        "wide": false
+      },
+      {
+        "headline": "Chhatra League attacks Chhatra Dal at DU — again",
+        "headlineBn": "ঢাবিতে ছাত্রদলের ওপর ফের ছাত্রলীগের হামলা",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-chhatradal-attack-again.jpg",
+        "imageAlt": "Newspaper story with a photograph of a scuffle at a campus gate and the Bengali headline “ঢাবিতে ছাত্রদলের ওপর ফের ছাত্রলীগের হামলা” (Chhatra League attacks Chhatra Dal at DU again)",
+        "continuationImage": "assets/news-chhatradal-attack-again-2.jpg",
+        "continuationAlt": "Continuation of the second attack report, headed by the headline repeated in small type and marked “প্রথম পৃষ্ঠার পর” (continued from page one)",
+        "caption": "A second Chhatra League attack on Chhatra Dal at Dhaka University — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "Part 1 ends with the line “এরপর পৃষ্ঠা : ৯ কলাম ১”. The continuation below repeats the headline in small type, marked “প্রথম পৃষ্ঠার পর” or “শেষ পৃষ্ঠার পর” (continued), and carries the rest of the report. The continuation traces the Facebook-post dispute behind the attack and the statements of both student fronts.",
+        "readHint": "Read both parts →",
+        "wide": false
+      },
+      {
+        "headline": "Defying the DU administration: non-students agree to leave the halls — on one condition",
+        "headlineBn": "ঢাবি প্রশাসনকে বুড়ো আঙুল — এক শর্তে হল ছাড়তে রাজি অছাত্ররা",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-hall-nonstudents.jpg",
+        "imageAlt": "Newspaper story with the Bengali headline “এক শর্তে হল ছাড়তে রাজি অছাত্ররা” (Non-students agree to leave the halls on one condition) and side boxes on the administration’s silence",
+        "continuationImage": "assets/news-hall-nonstudents-2.jpg",
+        "continuationAlt": "Continuation of the hall-vacating report: two columns of Bengali text headed by the headline repeated in small type",
+        "caption": "Non-resident students agree to vacate DU halls on one condition — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "Part 1 ends with the line “এরপর পৃষ্ঠা : ৯ কলাম ৪”. The continuation below repeats the headline in small type, marked “প্রথম পৃষ্ঠার পর” or “শেষ পৃষ্ঠার পর” (continued), and carries the rest of the report. The continuation follows the month of stalemate between the administration’s notices and the hall residents.",
+        "readHint": "Read both parts →",
+        "wide": false
+      },
+      {
+        "headline": "BUET class boycott continues — session jam looms",
+        "headlineBn": "বুয়েটে ক্লাস বর্জন কর্মসূচি অব্যাহত, সেশনজটের ঝুঁকি",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-buet-boycott.jpg",
+        "imageAlt": "Newspaper story with the Bengali headline “বুয়েটে ক্লাস বর্জন কর্মসূচি অব্যাহত, সেশনজটের ঝুঁকি” and an information box on the Abrar Fahad murder case",
+        "continuationImage": "assets/news-buet-boycott-2.jpg",
+        "continuationAlt": "Continuation of the BUET boycott report, headed by the headline repeated in small type and marked “প্রথম পৃষ্ঠার পর” (continued from page one)",
+        "caption": "BUET’s class boycott over the Abrar Fahad murder continues — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "Part 1 ends with the line “এরপর পৃষ্ঠা : ৫ কলাম ১”. The continuation below repeats the headline in small type, marked “প্রথম পৃষ্ঠার পর” or “শেষ পৃষ্ঠার পর” (continued), and carries the rest of the report. The continuation carries the students’ three demands, including permanent expulsion of the accused.",
+        "readHint": "Read both parts →",
+        "wide": false
+      },
+      {
+        "headline": "Students wind up the field movement at BUET",
+        "headlineBn": "বুয়েটে মাঠের আন্দোলনে ইতি শিক্ষার্থীদের",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-buet-movement-ends.jpg",
+        "imageAlt": "Newspaper story with the Bengali headline “বুয়েটে মাঠের আন্দোলনে ইতি শিক্ষার্থীদের” and the red sub-headline promising a class and exam boycott until the killers are permanently expelled",
+        "continuationImage": "assets/news-buet-movement-ends-2.jpg",
+        "continuationAlt": "Continuation of the BUET movement report, headed by the headline repeated in small type and marked “প্রথম পৃষ্ঠার পর” (continued from page one)",
+        "caption": "BUET students end their field movement, keeping the class boycott — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "Part 1 ends with the line “এরপর পৃষ্ঠা : ৯ কলাম ৪”. The continuation below repeats the headline in small type, marked “প্রথম পৃষ্ঠার পর” or “শেষ পৃষ্ঠার পর” (continued), and carries the rest of the report. The continuation details the temporary expulsion of 19 students and the oath ceremony announced for the next day.",
+        "readHint": "Read both parts →",
+        "wide": false
+      },
+      {
+        "headline": "BUET astir again over a ten-point charter of demands",
+        "headlineBn": "দশ দফা দাবিতে ফের উত্তাল বুয়েট",
+        "meta": "Shomoyer Alo · 2019 · Byline: Motasim Billa Naim",
+        "image": "assets/news-buet-ten-points.jpg",
+        "imageAlt": "Newspaper story with the Bengali headline “দশ দফা দাবিতে ফের উত্তাল বুয়েট”, bylined Motasim Billa Naim",
+        "continuationImage": "assets/news-buet-ten-points-2.jpg",
+        "continuationAlt": "Continuation of the ten-point demands report: a long single column of Bengali text headed by the headline repeated in small type, marked “প্রথম পৃষ্ঠার পর” (continued from page one)",
+        "caption": "BUET students return to the streets with ten demands — Shomoyer Alo, 2019. Byline: Motasim Billa Naim",
+        "jumpNote": "Part 1 ends with the line “এরপর পৃষ্ঠা : ১১ কলাম ৭”. The continuation below repeats the headline in small type, marked “প্রথম পৃষ্ঠার পর” or “শেষ পৃষ্ঠার পর” (continued), and carries the rest of the report. The continuation follows the protests across both campuses, including the black-flag procession at Dhaka University.",
+        "readHint": "Read both parts →",
+        "wide": false
+      },
+      {
+        "headline": "At the BUET admission test, seekers ask for a campus free of dirty politics",
+        "headlineBn": "বুয়েটে ভর্তি পরীক্ষা — নোংরা রাজনীতিমুক্ত ক্যাম্পাস দেখতে চায় ভর্তিচ্ছুরা",
+        "meta": "Shomoyer Alo · 2019 · Byline: Motasim Billa Naim",
+        "image": "assets/news-buet-admission-politics.jpg",
+        "imageAlt": "Newspaper story with the Bengali headline “নোংরা রাজনীতিমুক্ত ক্যাম্পাস দেখতে চায় ভর্তিচ্ছুরা” (Admission seekers want to see a campus free of dirty politics), bylined Motasim Billa Naim",
+        "continuationImage": "assets/news-buet-admission-politics-2.jpg",
+        "continuationAlt": "Continuation of the BUET admission report: a narrow column of Bengali text headed “নোংরা রাজনীতিমুক্ত” and marked “শেষ পৃষ্ঠার পর” (continued from the last page)",
+        "caption": "BUET admission test held amid the movement — Shomoyer Alo, 2019. Byline: Motasim Billa Naim",
+        "jumpNote": "Part 1 ends with the line “এরপর পৃষ্ঠা ১১ কলাম ৩”. The continuation below repeats the headline in small type, marked “প্রথম পৃষ্ঠার পর” or “শেষ পৃষ্ঠার পর” (continued), and carries the rest of the report. The continuation records parents’ and applicants’ hopes for a campus without student politics.",
+        "readHint": "Read both parts →",
+        "wide": false
+      },
+      {
+        "headline": "“As vice-chancellor, I will ensure everyone’s accountability” — the DU VC, interviewed",
+        "headlineBn": "উপাচার্য হিসেবে সবার জবাবদিহিতা নিশ্চিত করব",
+        "meta": "Shomoyer Alo · 2019 · Interview · Byline: Motasim Billa Naim",
+        "image": "assets/news-vc-interview.jpg",
+        "imageAlt": "Shomoyer Alo interview page with a large portrait photograph of DU vice-chancellor Prof. Dr. Md. Akhtaruzzaman and the Bengali headline “উপাচার্য হিসেবে সবার জবাবদিহিতা নিশ্চিত করব”, bylined Motasim Billa Naim",
+        "continuationImage": "assets/news-vc-interview-2.jpg",
+        "continuationAlt": "Continuation of the vice-chancellor interview, headed by the headline repeated in small type and marked “প্রথম পৃষ্ঠার পর” (continued from page one)",
+        "caption": "Interview with Dhaka University vice-chancellor Prof. Dr. Md. Akhtaruzzaman — Shomoyer Alo, 2019. Byline: Motasim Billa Naim",
+        "jumpNote": "Part 1 ends with the line “এরপর পৃষ্ঠা : ৯ কলাম ১”. The continuation below repeats the headline in small type, marked “প্রথম পৃষ্ঠার পর” or “শেষ পৃষ্ঠার পর” (continued), and carries the rest of the report. The continuation carries the rest of the interview: the vice-chancellor on his appointment, the university’s politics, and his plans.",
+        "readHint": "Read both parts →",
+        "wide": false
+      },
+      {
+        "headline": "Campus erupts over cancelling the seven colleges’ affiliation",
+        "headlineBn": "অধিভুক্তি বাতিলের দাবিতে উত্তাল ঢাবি ক্যাম্পাস",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-affiliation-heat.jpg",
+        "imageAlt": "Newspaper story with an aerial photograph of students blocking the Shahbagh intersection and the Bengali headline “অধিভুক্তি বাতিলের দাবিতে উত্তাল ঢাবি ক্যাম্পাস”",
+        "continuationImage": "assets/news-affiliation-heat-2.jpg",
+        "continuationAlt": "Continuation of the affiliation protest report, headed by the headline repeated in small type and marked “শেষ পৃষ্ঠার পর” (continued from the last page)",
+        "caption": "DU students block Shahbagh demanding an end to the seven colleges’ affiliation — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "Part 1 ends with the line “এরপর পৃষ্ঠা ১১ কলাম ১”. The continuation below repeats the headline in small type, marked “প্রথম পৃষ্ঠার পর” or “শেষ পৃষ্ঠার পর” (continued), and carries the rest of the report. The continuation carries the protesters’ four demands and the affiliated colleges’ students’ answers.",
+        "readHint": "Read both parts →",
+        "wide": false
+      },
+      {
+        "headline": "Two students beaten in the affiliation-cancellation movement",
+        "headlineBn": "অধিভুক্তি বাতিল আন্দোলন — ২ শিক্ষার্থীকে মারধর",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-two-students-beaten.jpg",
+        "imageAlt": "Newspaper page with a wide photograph of DU students behind a protest banner and, beside it, the story headlined “অধিভুক্তি বাতিল আন্দোলন — ২ শিক্ষার্থীকে মারধর” (Two students beaten in the affiliation-cancellation movement)",
+        "continuationImage": "assets/news-two-students-beaten-2.jpg",
+        "continuationAlt": "Continuation of the two-students-beaten report, headed by the headline repeated in small type and marked “শেষ পৃষ্ঠার পর” (continued from the last page)",
+        "caption": "Two DU students beaten during the affiliation protests — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "The report ran beside a photograph of the students’ “বিক্ষোভ কর্মসূচি” (protest programme) and ends with the line “এরপর পৃষ্ঠা : ৫ কলাম ৬”. The continuation below, marked “শেষ পৃষ্ঠার পর” (continued from the last page), names the injured students and the committee the university formed in response.",
+        "readHint": "Read both parts →",
+        "wide": false
+      },
+      {
+        "headline": "Admission fraud: 69 more students temporarily expelled",
+        "headlineBn": "ঢাবি ভর্তি জালিয়াতি — দ্বিতীয় দফায় ৬৯ শিক্ষার্থীকে সাময়িক বহিষ্কার",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-admission-fraud.jpg",
+        "imageAlt": "Newspaper headline block: “ঢাবি ভর্তি জালিয়াতি — দ্বিতীয় দফায় ৬৯ শিক্ষার্থীকে সাময়িক বহিষ্কার” (DU admission fraud: 69 students temporarily expelled in the second phase)",
+        "continuationImage": "assets/news-admission-fraud-2.jpg",
+        "continuationAlt": "Continuation of the admission-fraud report, headed by the headline repeated in small type and marked “প্রথম পৃষ্ঠার পর” (continued from page one)",
+        "caption": "DU admission fraud: 69 students expelled in a second phase — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "Part 1 ends with the line “এরপর পৃষ্ঠা : ৯ কলাম ৪”. The continuation below repeats the headline in small type, marked “প্রথম পৃষ্ঠার পর” or “শেষ পৃষ্ঠার পর” (continued), and carries the rest of the report. The continuation reports the disciplinary council’s decision and the notice served on the students.",
+        "readHint": "Read both parts →",
+        "wide": false
+      },
+      {
+        "headline": "Twenty days on, still no DU admission results — students call it neglect",
+        "headlineBn": "শিক্ষার্থীরা বলছেন অবহেলা — কুড়ি দিনেও ফল হয়নি ঢাবি ভর্তি পরীক্ষার",
+        "meta": "Shomoyer Alo · 2019 · Byline: Motasim Billa Naim",
+        "image": "assets/news-du-results-delay.jpg",
+        "imageAlt": "Newspaper story with the Bengali headline “কুড়ি দিনেও ফল হয়নি ঢাবি ভর্তি পরীক্ষার” (Even after twenty days, no DU admission test results), bylined Motasim Billa Naim",
+        "continuationImage": "assets/news-du-results-delay-2.jpg",
+        "continuationAlt": "Continuation of the results-delay report, headed by the headline repeated in small type and marked “শেষ পৃষ্ঠার পর” (continued from the last page)",
+        "caption": "DU admission results delayed under the new system — Shomoyer Alo, 2019. Byline: Motasim Billa Naim",
+        "jumpNote": "The feature began on the back page and jumps inside; the continuation below, marked “শেষ পৃষ্ঠার পর” (continued from the last page), puts the delay to the admission coordinators and the deans.",
+        "readHint": "Read both parts →",
+        "wide": false
+      },
+      {
+        "headline": "Nabanna harvest festival at DU, to the sound of the flute",
+        "headlineBn": "বাঁশির সুরে ঢাবিতে নবান্ন উৎসব",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-nabanna.jpg",
+        "imageAlt": "Newspaper entertainment-page story with a colour photograph of dancers in traditional dress at the Nabanna Utsab 1426 stage and the Bengali headline “বাঁশির সুরে ঢাবিতে নবান্ন উৎসব”",
+        "continuationImage": "assets/news-nabanna-2.jpg",
+        "continuationAlt": "Continuation of the Nabanna festival report: a long column of Bengali text headed by the headline repeated in small type, marked “শেষ পৃষ্ঠার পর” (continued from the last page)",
+        "caption": "Nabanna Utsab 1426 at Dhaka University — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "Part 1 ends with the line “এরপর পৃষ্ঠা ৫ কলাম ৩”. The continuation below repeats the headline in small type, marked “প্রথম পৃষ্ঠার পর” or “শেষ পৃষ্ঠার পর” (continued), and carries the rest of the report. The continuation lists the day’s performers and the cultural organisations that took part.",
+        "readHint": "Read both parts →",
+        "wide": false
+      },
+      {
+        "headline": "VP Nur: rein in the reckless Chhatra League too, not only Jubo League",
+        "headlineBn": "শুধু যুবলীগ নয়, বেপরোয়া ছাত্রলীগেরও লাগাম টানতে হবে : ভিপি নুর",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-nur-discussion.jpg",
+        "imageAlt": "Newspaper story with the Bengali headline “শুধু যুবলীগ নয়, বেপরোয়া ছাত্রলীগেরও লাগাম টানতে হবে : ভিপি নুর” (Not only Jubo League — the reckless Chhatra League must be reined in too: VP Nur)",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "An open student–teacher discussion at DU with DUCSU VP Nur — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "The clipping is shown as I kept it; no separate continuation page for it is among my scans.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      },
+      {
+        "headline": "At VP Nur’s rally, the chant: “Development’s Bangladesh — the money runs out buying onions”",
+        "headlineBn": "ডাকসু ভিপি নুরের সমাবেশে স্লোগান — ‘উন্নয়নের বাংলাদেশ, পেঁয়াজ কিনতেই টাকা শেষ’",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-nur-rally.jpg",
+        "imageAlt": "Newspaper story with the Bengali headline “‘উন্নয়নের বাংলাদেশ, পেঁয়াজ কিনতেই টাকা শেষ’” (Development’s Bangladesh — the money runs out just buying onions)",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "DUCSU VP Nur’s rally at Shahbagh — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "The clipping is shown as I kept it; no separate continuation page for it is among my scans.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      },
+      {
+        "headline": "DU students’ human chain protests the attack on VP Nur",
+        "headlineBn": "ডাকসু ভিপির ওপর হামলার প্রতিবাদে ঢাবি শিক্ষার্থীদের মানববন্ধন",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-human-chain-vp.jpg",
+        "imageAlt": "Newspaper story with the Bengali headline “ডাকসু ভিপির ওপর হামলার প্রতিবাদে ঢাবি শিক্ষার্থীদের মানববন্ধন” (DU students’ human chain in protest at the attack on the DUCSU VP)",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "Students form a human chain after the attack on DUCSU VP Nur — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "The clipping is shown as I kept it; no separate continuation page for it is among my scans.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      },
+      {
+        "headline": "DU students demand the resignation of DUCSU leaders admitted without a test",
+        "headlineBn": "পরীক্ষা ছাড়া ভর্তি হওয়া ডাকসু নেতাদের পদত্যাগ চান ঢাবি শিক্ষার্থীরা",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-ducsu-resignation.jpg",
+        "imageAlt": "Newspaper story with the Bengali headline “পরীক্ষা ছাড়া ভর্তি হওয়া ডাকসু নেতাদের পদত্যাগ চান ঢাবি শিক্ষার্থীরা” (DU students demand the resignation of DUCSU leaders admitted without a test)",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "Protest over DUCSU leaders admitted without an entrance test — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "The piece as kept runs to its end on this page; newspaper stories were often continued inside, but no continuation page for this one is among my scans.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      },
+      {
+        "headline": "“Skip the programme and you will not stay in the hall”: a Chhatra League leader’s warning",
+        "headlineBn": "প্রোগ্রামে না গেলে হলে থাকতে দেবে না ছাত্রলীগ নেতা",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-hall-threat.jpg",
+        "imageAlt": "Newspaper story with the Bengali headline “প্রোগ্রামে না গেলে হলে থাকতে দেবে না ছাত্রলীগ নেতা” (Chhatra League leader: skip the programme and you lose your hall seat)",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "A student beaten for missing a hall programme at DU — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "The clipping is shown as I kept it; no separate continuation page for it is among my scans.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      },
+      {
+        "headline": "DUCSU meeting decides to ban religion-based politics on campus",
+        "headlineBn": "ডাকসুর সভায় ধর্মভিত্তিক রাজনীতি নিষিদ্ধের সিদ্ধান্ত",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-ducsu-religion-politics.jpg",
+        "imageAlt": "Newspaper story with the Bengali headline “ডাকসুর সভায় ধর্মভিত্তিক রাজনীতি নিষিদ্ধের সিদ্ধান্ত” (Decision at the DUCSU meeting to ban religion-based politics)",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "DUCSU votes to bar religion-based student politics — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "The clipping is shown as I kept it; no separate continuation page for it is among my scans.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      },
+      {
+        "headline": "The guest-room and mass-room ordeal: still no step to end it",
+        "headlineBn": "গেস্টরুম গণরুম বন্ধে নেই কোনো পদক্ষেপ",
+        "meta": "Shomoyer Alo · 2019 · Byline: Motasim Billa Naim",
+        "image": "assets/news-guestroom.jpg",
+        "imageAlt": "Newspaper report with the Bengali headline “গেস্টরুম গণরুম বন্ধে নেই কোনো পদক্ষেপ” (No step taken to stop the guest-room and mass-room practice) and a red circular graphic reading “ডাকসু কমিটির অর্ধবছর” (half a year of the DUCSU committee), bylined Motasim Billa Naim",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "Inside DU’s guest-room and gonoroom culture, six months into DUCSU’s term — Shomoyer Alo, 2019. Byline: Motasim Billa Naim",
+        "jumpNote": "The piece as kept runs to its end on this page; newspaper stories were often continued inside, but no continuation page for this one is among my scans.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      },
+      {
+        "headline": "The “We want 35” movement rolls on, in fits and starts",
+        "headlineBn": "থেমে থেমে চলছে ‘৩৫’ চাই আন্দোলন",
+        "meta": "Shomoyer Alo · 2019 · Byline: Motasim Billa Naim",
+        "image": "assets/news-movement-35.jpg",
+        "imageAlt": "Newspaper column with the Bengali headline “থেমে থেমে চলছে ‘৩৫’ চাই আন্দোলন” (The ‘We want 35’ movement continues, on and off), bylined Motasim Billa Naim",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "The movement to raise the public-service entry age to 35 — Shomoyer Alo, 2019. Byline: Motasim Billa Naim",
+        "jumpNote": "The clipping is shown as I kept it; no separate continuation page for it is among my scans.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      },
+      {
+        "headline": "The affiliation-cancellation movement rolls on at DU",
+        "headlineBn": "ঢাবিতে অধিভুক্তি বাতিলের দাবিতে আন্দোলন অব্যাহত",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-affiliation-continues.jpg",
+        "imageAlt": "Newspaper story with a photograph of students sitting behind a “বিক্ষোভ কর্মসূচি” (protest programme) banner and the Bengali headline “ঢাবিতে অধিভুক্তি বাতিলের দাবিতে আন্দোলন অব্যাহত”",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "Second day of the Shahbagh blockade over the seven colleges — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "The clipping is shown as I kept it; no separate continuation page for it is among my scans.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      },
+      {
+        "headline": "DU students vow to carry on the non-cooperation movement",
+        "headlineBn": "সাত কলেজ অধিভুক্তি বাতিল দাবি — অসহযোগ আন্দোলন চালিয়ে যাওয়ার ঘোষণা ঢাবি শিক্ষার্থীদের",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-noncooperation.jpg",
+        "imageAlt": "Newspaper story with the Bengali headline “অসহযোগ আন্দোলন চালিয়ে যাওয়ার ঘোষণা ঢাবি শিক্ষার্থীদের” (DU students announce the non-cooperation movement will continue) and side boxes on DUCSU’s support",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "Non-cooperation declared over the seven colleges’ affiliation — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "As the line at the foot of this part reads — “এরপর পৃষ্ঠা ১১ কলাম ৪” — the story jumps to page 11, column 4. That continuation page is not among the scans in my archive, so only the titled first part can be shown.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      },
+      {
+        "headline": "Affiliation movement: packed in the morning, attacked by afternoon",
+        "headlineBn": "ঢাবিতে অধিভুক্তি বাতিল আন্দোলন — সকালে জমজমাট, বিকালে হামলা",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-affiliation-attack.jpg",
+        "imageAlt": "Newspaper story with a photograph of students marching and the Bengali headline “সকালে জমজমাট, বিকালে হামলা” (Lively in the morning, attacked in the afternoon)",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "Third day of the affiliation movement at DU ends in an attack — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "The piece as kept runs to its end on this page; newspaper stories were often continued inside, but no continuation page for this one is among my scans.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      },
+      {
+        "headline": "DU students return to class on the administration’s assurance",
+        "headlineBn": "প্রশাসনের আশ্বাসে ক্লাসে ফিরল ঢাবি শিক্ষার্থীরা",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-return-to-class.jpg",
+        "imageAlt": "Newspaper story with the Bengali headline “প্রশাসনের আশ্বাসে ক্লাসে ফিরল ঢাবি শিক্ষার্থীরা” (DU students return to class on the administration’s assurance)",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "The affiliation movement pauses as DU forms a committee — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "The piece as kept runs to its end on this page; newspaper stories were often continued inside, but no continuation page for this one is among my scans.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      },
+      {
+        "headline": "Seven-college students threaten to bring Dhaka to a standstill",
+        "headlineBn": "হঠকারী সিদ্ধান্তে ঢাকা অচলের হুমকি ৭ কলেজ শিক্ষার্থীদের",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-seven-colleges-threat.jpg",
+        "imageAlt": "Newspaper column with the Bengali headline “হঠকারী সিদ্ধান্তে ঢাকা অচলের হুমকি ৭ কলেজ শিক্ষার্থীদের” (Seven-college students threaten to paralyse Dhaka over a hasty decision)",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "Affiliated colleges’ students answer the cancellation movement — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "The piece as kept runs to its end on this page; newspaper stories were often continued inside, but no continuation page for this one is among my scans.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      },
+      {
+        "headline": "DU’s admission test under the new rules: 75 MCQ, 45 written",
+        "headlineBn": "নতুন নিয়মে ঢাবির ভর্তি পরীক্ষা",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-du-admission-rules.jpg",
+        "imageAlt": "Newspaper story with the Bengali headline “নতুন নিয়মে ঢাবির ভর্তি পরীক্ষা” (DU’s admission test under new rules), the university’s monogram, and the new marks distribution",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "The announced format of DU’s new admission test — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "The piece as kept runs to its end on this page; newspaper stories were often continued inside, but no continuation page for this one is among my scans.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      },
+      {
+        "headline": "Admission test today for the seven colleges’ Commerce unit",
+        "headlineBn": "ঢাবি অধিভুক্ত সাত কলেজের বাণিজ্য ইউনিটের ভর্তি পরীক্ষা আজ",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-seven-colleges-test.jpg",
+        "imageAlt": "Newspaper story with the Bengali headline “ঢাবি অধিভুক্ত সাত কলেজের বাণিজ্য ইউনিটের ভর্তি পরীক্ষা আজ” (Admission test today for the Commerce unit of DU’s seven affiliated colleges)",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "Commerce-unit admission test of the DU-affiliated colleges — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "The piece as kept runs to its end on this page; newspaper stories were often continued inside, but no continuation page for this one is among my scans.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      },
+      {
+        "headline": "DU ‘Ga’ unit results out: 4,362 pass",
+        "headlineBn": "ঢাবি ‘গ’ ইউনিটের ফল প্রকাশ — পাস করেছে ৪৩৬২ জন",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-ga-unit-results.jpg",
+        "imageAlt": "Newspaper story with the Bengali headline “ঢাবি ‘গ’ ইউনিটের ফল প্রকাশ — পাস করেছে ৪৩৬২ জন” (DU ‘Ga’ unit results published: 4,362 have passed)",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "Business Studies (‘Ga’ unit) admission results, 2019–20 — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "The piece as kept runs to its end on this page; newspaper stories were often continued inside, but no continuation page for this one is among my scans.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      },
+      {
+        "headline": "DU ‘Ka’ unit admission test today",
+        "headlineBn": "ঢাবিতে ‘ক’ ইউনিটের ভর্তি পরীক্ষা আজ",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-ka-unit-test.jpg",
+        "imageAlt": "Newspaper story with the Bengali headline “ঢাবিতে ‘ক’ ইউনিটের ভর্তি পরীক্ষা আজ” (DU ‘Ka’ unit admission test today)",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "Science (‘Ka’ unit) admission test day at DU — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "The piece as kept runs to its end on this page; newspaper stories were often continued inside, but no continuation page for this one is among my scans.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      },
+      {
+        "headline": "DU students form a human chain over the library seat crisis",
+        "headlineBn": "গ্রন্থাগারে আসন সংকট নিরসনের দাবিতে ঢাবি শিক্ষার্থীদের মানববন্ধন",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-library-seats.jpg",
+        "imageAlt": "Newspaper story with the Bengali headline “গ্রন্থাগারে আসন সংকট নিরসনের দাবিতে ঢাবি শিক্ষার্থীদের মানববন্ধন” (DU students’ human chain demanding an end to the library seat crisis)",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "Protest over the central library’s seat shortage — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "The piece as kept runs to its end on this page; newspaper stories were often continued inside, but no continuation page for this one is among my scans.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      },
+      {
+        "headline": "Dengue strikes a hundred at DU; two die — calls to close the campus",
+        "headlineBn": "ঢাবিতে শতাধিক ডেঙ্গুতে আক্রান্ত, দুজনের মৃত্যু",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-dengue.jpg",
+        "imageAlt": "Newspaper story with the red Bengali headline “ঢাবিতে শতাধিক ডেঙ্গুতে আক্রান্ত, দুজনের মৃত্যু” (Over a hundred dengue cases at DU, two deaths) and the university monogram",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "Dengue outbreak in DU’s halls, 2019 — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "The piece as kept runs to its end on this page; newspaper stories were often continued inside, but no continuation page for this one is among my scans.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      },
+      {
+        "headline": "“The dream of building a complete digital library” — DU’s librarian, interviewed",
+        "headlineBn": "পূর্ণাঙ্গ ডিজিটাল লাইব্রেরি গড়ে তোলার স্বপ্ন",
+        "meta": "Shomoyer Alo · 2019 · Interview · Byline: Motasim Billa Naim",
+        "image": "assets/news-digital-library.jpg",
+        "imageAlt": "Shomoyer Alo interview page with a photograph of DU librarian Prof. Dr. S. M. Zabed Ahmed holding the newspaper and the Bengali headline “পূর্ণাঙ্গ ডিজিটাল লাইব্রেরি গড়ে তোলার স্বপ্ন” (The dream of building a complete digital library)",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "Interview with Prof. Dr. S. M. Zabed Ahmed, Librarian of Dhaka University — Shomoyer Alo, 2019. Byline: Motasim Billa Naim",
+        "jumpNote": "The piece as kept runs to its end on this page; newspaper stories were often continued inside, but no continuation page for this one is among my scans.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      },
+      {
+        "headline": "DU’s Black Day: what actually happened that day",
+        "headlineBn": "ঢাবির কালো দিবস আজ — কী ঘটেছিল সেদিন!",
+        "meta": "Shomoyer Alo · 2019 · Byline: Motasim Billa Naim",
+        "image": "assets/news-black-day-feature.jpg",
+        "imageAlt": "Newspaper feature with the Bengali headline “ঢাবির কালো দিবস আজ — কী ঘটেছিল সেদিন!” (DU’s Black Day today — what happened that day!), bylined Motasim Billa Naim",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "The story of Dhaka University’s Black Day, 23 August — Shomoyer Alo, 2019. Byline: Motasim Billa Naim",
+        "jumpNote": "The piece as kept runs to its end on this page; newspaper stories were often continued inside, but no continuation page for this one is among my scans.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      },
+      {
+        "headline": "Black Day observed at DU: “Learning from history is the day’s real lesson”",
+        "headlineBn": "ঢাবিতে কালো দিবস পালিত — ইতিহাস থেকে শিক্ষা গ্রহণ করাই এই দিবসের মূল তাৎপর্য",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-black-day-observed.jpg",
+        "imageAlt": "Newspaper story with the Bengali headline “ইতিহাস থেকে শিক্ষা গ্রহণ করাই এই দিবসের মূল তাৎপর্য” (Learning lessons from history is the day’s true significance)",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "Black Day commemoration at DU’s TSC — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "The piece as kept runs to its end on this page; newspaper stories were often continued inside, but no continuation page for this one is among my scans.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      },
+      {
+        "headline": "“Colourful Fantasy” for Tourism Day at DU",
+        "headlineBn": "ঢাবিতে পর্যটন দিবস উপলক্ষে কালারফুল ফ্যান্টাসি",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-colourful-fantasy.jpg",
+        "imageAlt": "Newspaper story with the Bengali headline “ঢাবিতে পর্যটন দিবস উপলক্ষে কালারফুল ফ্যান্টাসি” (Colourful Fantasy at DU for Tourism Day)",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "World Tourism Day celebrations by DU’s tourism students — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "The piece as kept runs to its end on this page; newspaper stories were often continued inside, but no continuation page for this one is among my scans.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      },
+      {
+        "headline": "“Jobike” bicycles launched under a carbon-free campus slogan",
+        "headlineBn": "কার্বনমুক্ত বিশ্ববিদ্যালয় ক্যাম্পাস স্লোগানে ঢাবিতে জোবাইক",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-jobike.jpg",
+        "imageAlt": "Newspaper story with the Bengali headline “কার্বনমুক্ত বিশ্ববিদ্যালয় ক্যাম্পাস স্লোগানে ঢাবিতে জোবাইক” and a Shomoyer Alo QR code box",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "DUCSU’s Jobike bicycle-sharing launch at DU — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "The piece as kept runs to its end on this page; newspaper stories were often continued inside, but no continuation page for this one is among my scans.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      },
+      {
+        "headline": "A reunion on the DU journalists’ association’s birthday",
+        "headlineBn": "ডুজার জন্মদিনে মিলনমেলা",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-duja-reunion.jpg",
+        "imageAlt": "Newspaper story with the Bengali headline “ডুজার জন্মদিনে মিলনমেলা” (A reunion on DUJA’s birthday)",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "Dhaka University Journalists’ Association founding anniversary — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "The piece as kept runs to its end on this page; newspaper stories were often continued inside, but no continuation page for this one is among my scans.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      },
+      {
+        "headline": "DU teachers’ association honours 29 retired teachers",
+        "headlineBn": "অবসরপ্রাপ্ত ২৯ শিক্ষককে সংবর্ধনা দিল ঢাবি",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-retired-teachers.jpg",
+        "imageAlt": "Newspaper story with the Bengali headline “অবসরপ্রাপ্ত ২৯ শিক্ষককে সংবর্ধনা দিল ঢাবি” (DU honours 29 retired teachers)",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "Farewell honours for retired DU teachers — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "The piece as kept runs to its end on this page; newspaper stories were often continued inside, but no continuation page for this one is among my scans.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      },
+      {
+        "headline": "Four-day Bangabandhu book fair opens at DU",
+        "headlineBn": "ঢাবিতে ৪ দিনব্যাপী বঙ্গবন্ধু বইমেলা শুরু",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-book-fair.jpg",
+        "imageAlt": "Newspaper story with the Bengali headline “ঢাবিতে ৪ দিনব্যাপী বঙ্গবন্ধু বইমেলা শুরু” (Four-day Bangabandhu book fair begins at DU)",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "DUCSU’s Bangabandhu book fair — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "The piece as kept runs to its end on this page; newspaper stories were often continued inside, but no continuation page for this one is among my scans.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      },
+      {
+        "headline": "DU students write a letter to Bangabandhu",
+        "headlineBn": "বঙ্গবন্ধুর কাছে ঢাবি শিক্ষার্থীদের চিঠি!",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-letter-bangabandhu.jpg",
+        "imageAlt": "Newspaper column with the Bengali headline “বঙ্গবন্ধুর কাছে ঢাবি শিক্ষার্থীদের চিঠি!” (DU students’ letter to Bangabandhu)",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "“A letter to the Father” on Bangabandhu’s martyrdom anniversary — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "The piece as kept runs to its end on this page; newspaper stories were often continued inside, but no continuation page for this one is among my scans.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      },
+      {
+        "headline": "“Raspuran” takes the Shilpakala stage today",
+        "headlineBn": "আজ শিল্পকলায় মঞ্চস্থ হচ্ছে ‘রসপুরাণ’",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-raspuran.jpg",
+        "imageAlt": "Newspaper story with the Bengali headline “আজ শিল্পকলায় মঞ্চস্থ হচ্ছে ‘রসপুরাণ’” (‘Raspuran’ is staged at Shilpakala today)",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "Theatre and Performance Studies’ production at the Ideology Natya Utsab — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "The piece as kept runs to its end on this page; newspaper stories were often continued inside, but no continuation page for this one is among my scans.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      },
+      {
+        "headline": "The eighth DUMUNA conference raises its curtain Thursday",
+        "headlineBn": "ডানমানের অষ্টম অধিবেশনের পর্দা উঠছে বৃহস্পতিবার",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-dumuna.jpg",
+        "imageAlt": "Newspaper story with the Bengali headline “ডানমানের অষ্টম অধিবেশনের পর্দা উঠছে বৃহস্পতিবার” (The curtain rises Thursday on DUMUNA’s eighth session)",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "Dhaka University Model United Nations Association’s eighth session — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "The piece as kept runs to its end on this page; newspaper stories were often continued inside, but no continuation page for this one is among my scans.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      },
+      {
+        "headline": "Trader arrested for beating a DU student in New Market",
+        "headlineBn": "ঢাবি শিক্ষার্থীকে মারধরের ঘটনায় ব্যবসায়ী গ্রেফতার",
+        "meta": "Shomoyer Alo · 2019 · DU correspondent",
+        "image": "assets/news-trader-arrested.jpg",
+        "imageAlt": "Newspaper story with the Bengali headline “ঢাবি শিক্ষার্থীকে মারধরের ঘটনায় ব্যবসায়ী গ্রেফতার” (Trader arrested in the case of a DU student’s beating)",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "A DU student beaten over a shoe purchase in New Market — Shomoyer Alo, 2019. DU correspondent",
+        "jumpNote": "The piece as kept runs to its end on this page; newspaper stories were often continued inside, but no continuation page for this one is among my scans.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      },
+      {
+        "headline": "Youth killed in Bogura in a clash over drug use",
+        "headlineBn": "বগুড়ায় মাদক সেবন নিয়ে বিরোধের জেরে যুবক খুন",
+        "meta": "Newspaper clipping · Bogura · 2019",
+        "image": "assets/news-bogura-killing.jpg",
+        "imageAlt": "Small newspaper clipping with the Bengali headline “বগুড়ায় মাদক সেবন নিয়ে বিরোধের জেরে যুবক খুন” (Youth killed in Bogura in a dispute over drug-taking)",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "A killing in Bogura’s Nishindara over a drug dispute — newspaper report, 2019. Staff report, Bogura",
+        "jumpNote": "A small, low-resolution scan from the collection, shown as kept; no continuation page for it is among my scans.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      },
+      {
+        "headline": "Flourishing career as Business Analyst in Bangladesh",
+        "headlineBn": null,
+        "meta": "Feature article · English-language press · 2023 · By Md Motasim Billa",
+        "image": "assets/news-business-analyst.jpg",
+        "imageAlt": "English newspaper feature headlined “Flourishing career as Business Analyst in Bangladesh”, bylined Md Motasim Billa, with a “Business Analysis” graphic",
+        "continuationImage": null,
+        "continuationAlt": null,
+        "caption": "Flourishing career as Business Analyst in Bangladesh — feature article, by Md Motasim Billa, 2023",
+        "jumpNote": "The piece as kept runs to its end on this page; newspaper stories were often continued inside, but no continuation page for this one is among my scans.",
+        "readHint": "Read the clipping →",
+        "wide": false
+      }
+    ],
+    "note": "These clippings are the pieces I kept from my reporting years, scanned from the printed pages. Together they are the whole of my surviving newspaper archive — every article and report in the collection is on this page, each with its continuation where one survives among the scans."
+  },
+  "chronicles": {
+    "tabTitle": "Chronicles — Md Motasim Billa",
+    "folio": "Chronicles",
+    "heading": "Chronicles",
+    "intro": "The chapters behind the CV — the fellowship year, the student leadership, the road from a Dhaka newsroom to a library, and life beyond the desk. The facts and dates live on the CV page; these are the experiences I would rather tell properly.",
+    "stories": [
+      {
+        "id": "story-cci",
+        "tabTitle": "The CCI Year — Md Motasim Billa",
+        "title": "The CCI year — the best experience of my life",
+        "cardMeta": "2021 – 2022 · Virginia, USA",
+        "introHtml": "A U.S. Department of State fellowship took me to Northern Virginia Community College for a year of study, service, and exchange. I still call it, without hesitation, one of the best experiences of my life.",
+        "image": null,
+        "imageAlt": null,
+        "badgeText": "CCI",
+        "badgeSub": "Virginia · 2021–22",
+        "pageMeta": "2021 – 2022 · Virginia, USA · U.S. Department of State CCI Program",
+        "paragraphsHtml": [
+          "In 2021 I was selected for the Community College Initiative (CCI) Program, a U.S. Department of State fellowship that brings participants from around the world to spend an academic year at an American community college. I still call it, without hesitation, one of the best experiences of my life. My placement was Northern Virginia Community College, where I studied Business Management and Leadership Development, completed an Associate’s degree (GPA 3.42/4.00), and earned a place on the Dean’s Honor List in Spring 2022.",
+          "But the degree was only part of what CCI is designed to give. The program deliberately builds a year out of more than coursework — internships, community service, and cultural exchange are woven through it — and it was those parts that stayed with me most. I volunteered as a Book Buddy with Alexandria City Public Schools, sitting with young readers one-to-one each week and watching hesitant kids turn into confident ones. I lived the ordinary rhythms of Northern Virginia: classes, work, service, and the small daily negotiations of a new country. For a student from Bangladesh, it was a full year of seeing how another society organizes its schools, its libraries, and its public life — from the inside.",
+          "That year changed the direction of mine. It reshaped how I think about education and public institutions, gave me friends and mentors across the world, and planted the idea that I would come back to the United States for graduate study. When I arrived at the University of Arkansas at Little Rock for my MS in Information Science, I was, in a real sense, continuing a journey that CCI started."
+        ],
+        "sections": []
+      },
+      {
+        "id": "story-byi",
+        "tabTitle": "Leading BYI — Md Motasim Billa",
+        "title": "Leading BYI — the Bangladesh Youth Initiative",
+        "cardMeta": "2020 – 2021 · University of Dhaka",
+        "introHtml": "Before the fellowship came a lesson in leading at home: a year as president of the Bangladesh Youth Initiative’s Dhaka University unit — holding an organization together, and answering for the result.",
+        "image": null,
+        "imageAlt": null,
+        "badgeText": "BYI",
+        "badgeSub": "Dhaka University",
+        "pageMeta": "2020 – 2021 · University of Dhaka",
+        "paragraphsHtml": [
+          "Before the fellowship came a lesson in leading at home. At the University of Dhaka I served as president of the university unit of the Bangladesh Youth Initiative (BYI) in 2020–21 — a student community built around young people taking responsibility for something larger than their own degrees. The presidency was my first real experience of holding an organization together: setting a direction, persuading busy students to give their time to it, and answering for the result when plans met reality.",
+          "It taught me things no classroom had. Leadership, I learned, is mostly listening carefully and following through — doing the unglamorous work between meetings that makes the visible work possible. In the same season I coordinated Surjasen Bitarka Dhara, the debating circle of Surjasen Hall (2020), which sharpened the other half of the skill: building an argument, defending it in public, and losing one gracefully. Those Dhaka years — organizing, debating, reporting for the campus paper — are the foundation everything since has been built on."
+        ],
+        "sections": []
+      },
+      {
+        "id": "story-newsroom",
+        "tabTitle": "From the Newsroom to the Library — Md Motasim Billa",
+        "title": "From the newsroom to the library",
+        "cardMeta": "2019 – 2024 · Dhaka",
+        "introHtml": "My working life began in print — campus correspondent for <i>Shomoyer Alo</i>, then data journalist at <i>Bangladesh Post</i>. This is how the newsroom, the library, and the lab led me to information science.",
+        "image": "assets/news-digital-library.jpg",
+        "imageAlt": "His Shomoyer Alo interview with Dhaka University’s librarian, headlined “The dream of building a complete digital library”",
+        "badgeText": null,
+        "badgeSub": null,
+        "pageMeta": "2019 – 2024 · Dhaka",
+        "paragraphsHtml": [
+          "My working life began in print. In 2019 I was the Dhaka University correspondent for the Bengali daily <i>Shomoyer Alo</i>, covering admission reform, campus movements, and the small human stories in between — the clippings are on the <a href=\"#writing\" data-view-link=\"writing\">Newspaper Writing page</a>. After my degree I joined <i>Bangladesh Post</i> as a data journalist (2023–24) and wrote more than 200 data-informed, analytical articles, turning budgets and official statistics into reporting readers could check for themselves.",
+          "Alongside the newsroom ran the library and the lab: an internship at Dhaka University Library in 2023, working through cataloging, classification, and user services at Bangladesh’s largest academic library; and a data science internship at Somikoron AI (2022–23), building an NLP-based recommendation system. Journalism taught me to interrogate data; the library taught me how knowledge is organized and kept; the internship taught me to compute with text. Information science is where those three threads join — and at UALR, as a graduate assistant in JMC supporting faculty teaching and research, I now work on the other side of the systems I once reported on."
+        ],
+        "sections": []
+      },
+      {
+        "id": "story-beyond",
+        "tabTitle": "Beyond the Desk — Md Motasim Billa",
+        "title": "Beyond the desk",
+        "cardMeta": "Reading · Debating · Volunteering",
+        "introHtml": "Reading well past bedtime, debating at Surjasen Hall, and reading one-to-one with young students in Virginia — some of what fills the hours when I am not counting citations.",
+        "image": "assets/news-reading-feature.jpg",
+        "imageAlt": "His feature article “Reading for pleasure boosts kids’ brain development”, with a photograph of a young girl reading in a library",
+        "badgeText": null,
+        "badgeSub": null,
+        "pageMeta": "Reading · Debating · Volunteering",
+        "paragraphsHtml": [
+          "This site is academic, but it is also mine — so here is some of what fills the hours when I am not counting citations."
+        ],
+        "sections": [
+          {
+            "heading": "Reading",
+            "paragraphsHtml": [
+              "Reading for pleasure is a habit I have argued for in print: my feature “Reading for pleasure boosts kids’ brain development” grew out of research I could not stop thinking about — and out of a childhood spent reading well past bedtime. The habit has survived graduate school; there is always a book on the desk that has nothing to do with the thesis."
+            ]
+          },
+          {
+            "heading": "Debating",
+            "paragraphsHtml": [
+              "At the University of Dhaka I coordinated Surjasen Bitarka Dhara, the debating circle of Surjasen Hall, in 2020, and served as president of the university unit of the Bangladesh Youth Initiative in 2020–21. Debating taught me to build an argument under time pressure — and, just as usefully, to lose one gracefully."
+            ]
+          },
+          {
+            "heading": "Tutoring & volunteering",
+            "paragraphsHtml": [
+              "During my exchange year in Virginia I volunteered as a Book Buddy with Alexandria City Public Schools (2021–22), reading one-to-one with young students each week. It remains some of the most rewarding time I have spent in the United States — and it circles back to the reading I still love."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "cv": {
+    "tabTitle": "CV — Md Motasim Billa",
+    "folio": "Curriculum Vitae",
+    "heading": "CV at a glance",
+    "rows": [
+      {
+        "label": "Name",
+        "valueHtml": "Md Motasim Billa"
+      },
+      {
+        "label": "Affiliation",
+        "valueHtml": "University of Arkansas at Little Rock"
+      },
+      {
+        "label": "Program",
+        "valueHtml": "MS in Information Science (2025 – Spring 2027) · GPA 3.66/4.00"
+      },
+      {
+        "label": "Thesis",
+        "valueHtml": "<i>A Position-Based Citation-Credit Model for Multi-Authored Publications</i> — advisor: Daniel Berleant, Ph.D."
+      },
+      {
+        "label": "Research",
+        "valueHtml": "Scientometrics, science of science, citation analysis, NLP and text mining, entity disambiguation, metadata, digital curation"
+      },
+      {
+        "label": "Experience",
+        "valueHtml": "Graduate Assistant, JMC (UALR) · Data Journalist, Bangladesh Post · Data Science Intern, Somikoron AI · Academic Library Intern, Dhaka University Library"
+      },
+      {
+        "label": "Contact",
+        "valueHtml": "<a href=\"mailto:mbilla@ualr.edu\">mbilla@ualr.edu</a> · <a href=\"https://www.linkedin.com/in/motasimbilla13\" target=\"_blank\" rel=\"noopener\">LinkedIn</a> · <a href=\"https://github.com/motasim-billa\" target=\"_blank\" rel=\"noopener\">github.com/motasim-billa</a>"
+      }
+    ],
+    "checklist": [
+      {
+        "text": "Name, affiliation & academic email",
+        "done": true
+      },
+      {
+        "text": "Publications, research interests & newspaper archive",
+        "done": true
+      },
+      {
+        "text": "Full CV (PDF) — added",
+        "done": true
+      },
+      {
+        "text": "LinkedIn link — added",
+        "done": true
+      },
+      {
+        "text": "Add headshot photo",
+        "done": false
+      },
+      {
+        "text": "Add Google Scholar, ORCID & ResearchGate links",
+        "done": false
+      }
+    ],
+    "profileLinks": [
+      {
+        "label": "LinkedIn ↗",
+        "url": "https://www.linkedin.com/in/motasimbilla13"
+      },
+      {
+        "label": "GitHub ↗",
+        "url": "https://github.com/motasim-billa"
+      }
+    ],
+    "pendingLinks": [
+      {
+        "label": "Google Scholar — to add",
+        "title": "Add your profile link"
+      },
+      {
+        "label": "ORCID — to add",
+        "title": "Add your profile link"
+      },
+      {
+        "label": "ResearchGate — to add",
+        "title": "Add your profile link"
+      }
+    ],
+    "cvPdf": "assets/Motasim_Billa_CV.pdf",
+    "downloadLabel": "Download CV (PDF)",
+    "updatedNote": "CV last updated October 2026."
+  },
+  "contact": {
+    "tabTitle": "Contact — Md Motasim Billa",
+    "folio": "Contact",
+    "heading": "Get in touch",
+    "boxHeading": "Say hello",
+    "boxTextHtml": "For research, scientometrics and metadata projects, or my writing — email is best: <a href=\"mailto:mbilla@ualr.edu\">mbilla@ualr.edu</a> · or find me on <a href=\"https://www.linkedin.com/in/motasimbilla13\" target=\"_blank\" rel=\"noopener\">LinkedIn</a> · Little Rock, Arkansas.",
+    "emailSubject": "Hello — from your website"
+  }
+}
