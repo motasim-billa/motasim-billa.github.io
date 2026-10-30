@@ -113,6 +113,25 @@
   figcaption .hl-bn{display:block;margin-top:3px;font-size:13.5px;color:var(--text);opacity:.85;line-height:1.5}
   figcaption .meta{display:block;margin-top:7px;font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--faint)}
   .gallery-note{margin:22px 0 0;color:var(--muted);font-size:14px;max-width:880px}
+  /* newspaper writing — two tabs: Fact-Check (shown first) and News clippings */
+  .news-tabs{display:flex;gap:8px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:26px}
+  .news-tab{appearance:none;border:1px solid var(--line-2);background:var(--surface);color:var(--text);font-family:inherit;font-size:14.5px;font-weight:600;padding:9px 18px;border-radius:999px;cursor:pointer}
+  .news-tab:hover{border-color:var(--gold)}
+  .news-tab[aria-selected="true"]{background:var(--maroon);border-color:var(--maroon);color:#fff}
+  @media (prefers-color-scheme: dark){.news-tab[aria-selected="true"]{background:#8e2a3d;border-color:#8e2a3d}}
+  .news-tab .tab-count{font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:500;opacity:.75;margin-left:6px}
+  .news-panel[hidden]{display:none}
+  .fc-intro{margin:0 0 20px;color:var(--muted);font-size:15.5px;max-width:880px}
+  .fc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  .fc-card{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line-2);box-shadow:var(--frame-shadow);color:var(--text)}
+  .fc-card:hover{text-decoration:none;border-color:var(--gold)}
+  .fc-card:focus-visible{outline:2px solid var(--maroon);outline-offset:3px}
+  .fc-card img{width:100%;aspect-ratio:3/2;object-fit:cover;border-bottom:1px solid var(--line)}
+  .fc-body{padding:15px 17px 17px;display:flex;flex-direction:column;flex:1}
+  .fc-meta{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);font-weight:600}
+  .fc-card h3{font-family:"Newsreader",serif;font-size:19.5px;line-height:1.25;margin:7px 0 0}
+  .fc-card p{margin:8px 0 0;color:var(--muted);font-size:14.5px}
+  .fc-card .read-hint{padding:12px 0 0}
   /* stories — a news-portal grid of story cards; each card opens the full story as its own view */
   .story-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
   .story-card{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line-2);box-shadow:var(--frame-shadow);color:var(--text)}
@@ -170,6 +189,7 @@
   .lb-close{position:fixed;top:14px;right:14px;width:42px;height:42px;border-radius:50%;border:1px solid rgba(255,255,255,.4);background:rgba(255,255,255,.1);color:#fff;font-size:19px;cursor:pointer;z-index:2}
   @media (max-width:1100px){
     .gallery{grid-template-columns:repeat(3,1fr)}
+    .fc-grid{grid-template-columns:repeat(2,1fr)}
   }
   @media (max-width:860px){
     .gallery{grid-template-columns:1fr 1fr}
@@ -187,6 +207,7 @@
   }
   @media (max-width:560px){
     .gallery{grid-template-columns:1fr}
+    .fc-grid{grid-template-columns:1fr}
     .story-grid{grid-template-columns:1fr}
     figure.clipping.wide{grid-column:span 1}
     .clip-btn img{max-height:70vh}
@@ -314,10 +335,27 @@
       }).join('')
       +'<p class="gallery-note">'+esc(PB.note)+'</p>';
 
-    /* Newspaper Writing */
+    /* Newspaper Writing — two tabs: Fact-Check first, then the News clippings */
     var N=D.newspaper;
+    var FC=N.factChecks||[];
     document.getElementById('view-writing').innerHTML=
       viewHead(N.folio,N.heading,N.intro)
+      +'<div class="news-tabs" role="tablist" aria-label="Newspaper writing sections">'
+      +'<button class="news-tab" type="button" role="tab" id="tab-factcheck" aria-selected="true" aria-controls="panel-factcheck" data-news-tab="factcheck">Fact-Check<span class="tab-count">'+FC.length+' stories</span></button>'
+      +'<button class="news-tab" type="button" role="tab" id="tab-news" aria-selected="false" aria-controls="panel-news" data-news-tab="news">News<span class="tab-count">'+N.articles.length+' clippings</span></button>'
+      +'</div>'
+      +'<div class="news-panel" id="panel-factcheck" role="tabpanel" aria-labelledby="tab-factcheck">'
+      +(N.factCheckIntro?'<p class="fc-intro">'+esc(N.factCheckIntro)+'</p>':'')
+      +'<div class="fc-grid">'
+      +FC.map(function(f){
+        return '<a class="fc-card" href="'+escA(f.url)+'" target="_blank" rel="noopener">'
+          +'<img src="'+escA(f.image)+'" alt="'+escA(f.imageAlt)+'" loading="lazy">'
+          +'<span class="fc-body"><span class="fc-meta">'+esc(f.meta)+'</span>'
+          +'<h3>'+esc(f.title)+'</h3><p>'+esc(f.summary)+'</p>'
+          +'<span class="read-hint">Read on The Dissent ↗</span></span></a>';
+      }).join('')
+      +'</div></div>'
+      +'<div class="news-panel" id="panel-news" role="tabpanel" aria-labelledby="tab-news" hidden>'
       +'<div class="prose" style="margin-bottom:26px">'+paras(N.introParagraphsHtml,true)+'</div>'
       +'<div class="gallery">'
       +N.articles.map(function(a){
@@ -333,7 +371,7 @@
           +'<span class="read-hint">'+esc(a.readHint)+'</span></figure>';
       }).join('')
       +'</div>'
-      +'<p class="gallery-note">'+esc(N.note)+'</p>';
+      +'<p class="gallery-note">'+esc(N.note)+'</p></div>';
 
     /* Chronicles — story cards */
     var C=D.chronicles;
@@ -449,6 +487,15 @@
         document.body.removeChild(ta);
       }
     }
+    // newspaper tabs — Fact-Check is the default panel; News holds the clippings
+    var newsTabs=Array.prototype.slice.call(document.querySelectorAll('[data-news-tab]'));
+    var newsPanels={factcheck:document.getElementById('panel-factcheck'),news:document.getElementById('panel-news')};
+    function showNewsTab(key){
+      newsTabs.forEach(function(b){ b.setAttribute('aria-selected', b.getAttribute('data-news-tab')===key?'true':'false'); });
+      Object.keys(newsPanels).forEach(function(k){ if(newsPanels[k]) newsPanels[k].hidden=(k!==key); });
+    }
+    newsTabs.forEach(function(b){ b.addEventListener('click',function(){ showNewsTab(b.getAttribute('data-news-tab')); }); });
+
     var cb=document.getElementById('copyEmailBtn'); if(cb) cb.addEventListener('click',function(){copyEmail('toast');});
     var cb2=document.getElementById('copyEmailBtn2'); if(cb2) cb2.addEventListener('click',function(){copyEmail('toast2');});
 
