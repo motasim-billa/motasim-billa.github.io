@@ -59,10 +59,53 @@
     "tabTitle": "Newspaper Writing — Md Motasim Billa",
     "folio": "Newspaper Writing",
     "heading": "My newspaper articles",
-    "intro": "Stories and features I wrote for the press — my own bylined work, kept as clippings from the printed pages.",
+    "intro": "My bylined work for the press — fact-checks and investigations for The Dissent, and my earlier newspaper reporting from Dhaka, kept as clippings.",
     "introParagraphsHtml": [
       "Before graduate school I reported from Dhaka University for the Bengali daily <i>Shomoyer Alo</i> (byline: Motasim Billa Naim), covering the campus in 2019 — admission reform, student movements, and the small stories in between. From 2023 to 2024 I was a data journalist at <i>Bangladesh Post</i> in Dhaka, where I wrote more than 200 data-informed and analytical articles: turning datasets, budgets, and official statistics into evidence-based, public-interest reporting that readers could check for themselves. That newsroom training — ask what the numbers actually say, and show your working — is the same instinct I now bring to scientometrics.",
       "Like most newspaper stories, the printed pieces below ran in <b>two parts</b>: a first part under the headline, and the rest continued — “jumped” — to an inside page. Each card below shows only the titled first part, complete and uncropped. <b>Click a clipping</b> to read it enlarged — and where the continuation page survives among my scans, it appears there, after the first part, exactly as a reader of the paper would have turned to it. Where no continuation page is among my scans, the enlarged view says so rather than filling the gap."
+    ],
+    "factCheckIntro": "Fact-checks and digital investigations I wrote for The Dissent, an independent Bangladeshi fact-checking outlet — each one opens the full story on thedissent.news.",
+    "factChecks": [
+      {
+        "title": "Eurasia Review’s Claim about UN Dhaka Office: What’s behind it?",
+        "meta": "Digital Investigations · The Dissent",
+        "summary": "The claim that Bangladesh rejected the UN’s nominee for Resident Coordinator in Dhaka was false — neither the government nor the UN had made any decision — and the op-ed’s author and outlet do not hold up to scrutiny.",
+        "url": "https://thedissent.news/digital-investigations/eurasia-reviews-claim-about-un-dhaka-office-whats-behind-it",
+        "image": "assets/factcheck-un-dhaka.jpg",
+        "imageAlt": "Cover image for the Eurasia Review investigation: the Eurasia Review logo beside a portrait of the op-ed’s author"
+      },
+      {
+        "title": "Dozens of false claims traced to India as Bangladesh prepares for vote",
+        "meta": "Current Affairs · The Dissent",
+        "summary": "In the 60 days after the election schedule was announced, 39 widely circulated false or misleading claims were traced to India — nine through Indian news outlets and thirty through India-run social media accounts.",
+        "url": "https://thedissent.news/current-affairs/dozens-of-false-claims-traced-to-india-as-bangladesh-prepares-for-vote",
+        "image": "assets/factcheck-india-claims.jpg",
+        "imageAlt": "Cover image for the India disinformation report: a silhouetted head filled with the Indian flag over a digital circuit pattern"
+      },
+      {
+        "title": "“Which One Do You Like?”: Girl Students Sexualised in Madrasa Teachers’ TikTok Videos",
+        "meta": "Current Affairs · The Dissent",
+        "summary": "Madrasa teachers filmed their young students and posted the videos to TikTok with sexualised captions inviting viewers to pick which child they liked — without any parent’s permission.",
+        "url": "https://thedissent.news/current-affairs/which-one-do-you-like-girl-students-sexualised-in-madrasa-teachers-tiktok-videos",
+        "image": "assets/factcheck-madrasa-tiktok.jpg",
+        "imageAlt": "Cover image for the madrasa TikTok investigation: three TikTok screenshots of madrasa students, their faces obscured, with suggestive Bengali captions"
+      },
+      {
+        "title": "Network Uses Fake Credentials and Deepfake Videos to Market ‘Sexual Disease’ Drugs",
+        "meta": "Digital Investigations · The Dissent",
+        "summary": "A network of 50 Facebook pages used deepfake videos of popular Islamic speaker Mizanur Rahman Azhari, fake licences and staged reviews to run 590 ads selling unauthorised sexual-health drugs.",
+        "url": "https://thedissent.news/digital-investigations/network-uses-fake-credentials-and-deepfake-videos-to-market-sexual-disease-drugs",
+        "image": "assets/factcheck-deepfake-drugs.jpg",
+        "imageAlt": "Cover image for the deepfake-drugs investigation: screenshots of fake Facebook ads using Mizanur Rahman Azhari’s image to sell Ginseng and Urocin products"
+      },
+      {
+        "title": "Awami League amplifies misinformation citing suspicious website as US media",
+        "meta": "Digital Investigations · The Dissent",
+        "summary": "The ‘US media outlet’ cited for the claim that Washington spent $320 million to remove the Hasina government is no established American news organisation at all — it is run largely from Bangladesh, and the claim itself has no evidence behind it.",
+        "url": "https://thedissent.news/digital-investigations/awami-league-amplifies-misinformation-citing-suspicious-website-as-us-media",
+        "image": "assets/factcheck-awami-csb.jpg",
+        "imageAlt": "Cover image for the CSB News USA verification: screenshots of Awami League-linked pages sharing the ‘Paper Trail’ report alongside a portrait of Sheikh Hasina"
+      }
     ],
     "articles": [
       {
@@ -797,7 +840,8 @@
           "It taught me things no classroom had. Leadership, I learned, is mostly listening carefully and following through — doing the unglamorous work between meetings that makes the visible work possible. In the same season I coordinated Surjasen Bitarka Dhara, the debating circle of Surjasen Hall (2020), which sharpened the other half of the skill: building an argument, defending it in public, and losing one gracefully. Those Dhaka years — organizing, debating, reporting for the campus paper — are the foundation everything since has been built on."
         ],
         "sections": []
-      }    ]
+      }
+    ]
   },
   "cv": {
     "tabTitle": "CV — Md Motasim Billa",
