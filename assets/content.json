@@ -11,6 +11,8 @@
     ],
     "email": "mbilla@ualr.edu",
     "linkedin": "https://www.linkedin.com/in/motasimbilla13",
+    "orcid": "https://orcid.org/0009-0009-6963-8081",
+    "researchgate": "https://www.researchgate.net/profile/Md-Motasim-Billa",
     "copyright": "© 2026 Md Motasim Billa",
     "footerNote": "Designed for GitHub Pages · motasim-billa.github.io"
   },
@@ -61,7 +63,7 @@
         ]
       }
     ],
-    "note": "This list will also be maintained on Google Scholar and ORCID; the profile links will be added here as they go live."
+    "note": "This list is also on ORCID and ResearchGate — see the profile links on the CV page. A Google Scholar profile will be added here when it goes live."
   },
   "newspaper": {
     "tabTitle": "Newspaper Writing — Md Motasim Billa",
@@ -882,7 +884,7 @@
       },
       {
         "label": "Contact",
-        "valueHtml": "<a href=\"mailto:mbilla@ualr.edu\">mbilla@ualr.edu</a> · <a href=\"https://www.linkedin.com/in/motasimbilla13\" target=\"_blank\" rel=\"noopener\">LinkedIn</a> · <a href=\"https://github.com/motasim-billa\" target=\"_blank\" rel=\"noopener\">github.com/motasim-billa</a>"
+        "valueHtml": "<a href=\"mailto:mbilla@ualr.edu\">mbilla@ualr.edu</a> · <a href=\"https://www.linkedin.com/in/motasimbilla13\" target=\"_blank\" rel=\"noopener\">LinkedIn</a> · <a href=\"https://orcid.org/0009-0009-6963-8081\" target=\"_blank\" rel=\"noopener\">ORCID</a> · <a href=\"https://www.researchgate.net/profile/Md-Motasim-Billa\" target=\"_blank\" rel=\"noopener\">ResearchGate</a> · <a href=\"https://github.com/motasim-billa\" target=\"_blank\" rel=\"noopener\">github.com/motasim-billa</a>"
       }
     ],
     "checklist": [
@@ -907,7 +909,11 @@
         "done": false
       },
       {
-        "text": "Add Google Scholar, ORCID & ResearchGate links",
+        "text": "ORCID & ResearchGate links — added",
+        "done": true
+      },
+      {
+        "text": "Add Google Scholar link",
         "done": false
       }
     ],
@@ -917,6 +923,14 @@
         "url": "https://www.linkedin.com/in/motasimbilla13"
       },
       {
+        "label": "ORCID ↗",
+        "url": "https://orcid.org/0009-0009-6963-8081"
+      },
+      {
+        "label": "ResearchGate ↗",
+        "url": "https://www.researchgate.net/profile/Md-Motasim-Billa"
+      },
+      {
         "label": "GitHub ↗",
         "url": "https://github.com/motasim-billa"
       }
@@ -924,14 +938,6 @@
     "pendingLinks": [
       {
         "label": "Google Scholar — to add",
-        "title": "Add your profile link"
-      },
-      {
-        "label": "ORCID — to add",
-        "title": "Add your profile link"
-      },
-      {
-        "label": "ResearchGate — to add",
         "title": "Add your profile link"
       }
     ],
@@ -944,7 +950,7 @@
     "folio": "Contact",
     "heading": "Get in touch",
     "boxHeading": "Say hello",
-    "boxTextHtml": "For research, scientometrics and metadata projects, or my writing — email is best: <a href=\"mailto:mbilla@ualr.edu\">mbilla@ualr.edu</a> · or find me on <a href=\"https://www.linkedin.com/in/motasimbilla13\" target=\"_blank\" rel=\"noopener\">LinkedIn</a> · Little Rock, Arkansas.",
+    "boxTextHtml": "For research, scientometrics and metadata projects, or my writing — email is best: <a href=\"mailto:mbilla@ualr.edu\">mbilla@ualr.edu</a> · or find me on <a href=\"https://www.linkedin.com/in/motasimbilla13\" target=\"_blank\" rel=\"noopener\">LinkedIn</a>, <a href=\"https://orcid.org/0009-0009-6963-8081\" target=\"_blank\" rel=\"noopener\">ORCID</a> and <a href=\"https://www.researchgate.net/profile/Md-Motasim-Billa\" target=\"_blank\" rel=\"noopener\">ResearchGate</a> · Little Rock, Arkansas.",
     "emailSubject": "Hello — from your website"
   }
 }
