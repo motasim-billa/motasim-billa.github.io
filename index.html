@@ -289,7 +289,7 @@
   function escA(s){return esc(s).replace(/"/g,'&quot;');}
   function paras(list,raw){return (list||[]).map(function(t){return '<p>'+(raw?t:esc(t))+'</p>';}).join('');}
   function viewHead(folio,heading,intro){
-    return '<div class="view-head"><span class="folio">'+esc(folio)+'</span><h2>'+esc(heading)+'</h2>'
+    return '<div class="view-head">'+(folio?'<span class="folio">'+esc(folio)+'</span>':'')+'<h2>'+esc(heading)+'</h2>'
       +(intro?'<p>'+esc(intro)+'</p>':'')+'</div>';
   }
 
