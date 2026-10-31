@@ -28,17 +28,9 @@
         "entries": [
           {
             "title": "The Invisible Infrastructure of Biomedical Research: An Exploratory Analysis of Software Mentions and Sentence-Level Citation Marking",
-            "type": "Preprint",
-            "status": "Version 1",
-            "authorsHtml": "<b>M. M. Billa</b> (sole author) · <i>Research Square</i> · 2026 · DOI: <a href=\"https://doi.org/10.21203/rs.3.rs-11264021/v1\" target=\"_blank\" rel=\"noopener\">10.21203/rs.3.rs-11264021/v1</a>",
-            "note": "Preprint of the journal article below, posted on Research Square on 30 October 2026 (Version 1). The same study of software mentions and sentence-level citation marking in biomedical research, available to read ahead of the journal version.",
-            "link": "https://doi.org/10.21203/rs.3.rs-11264021/v1"
-          },
-          {
-            "title": "The Invisible Infrastructure of Biomedical Research: An Exploratory Analysis of Software Mentions and Sentence-Level Citation Marking",
             "type": "Journal article",
             "status": "Under review · Preprint available",
-            "authorsHtml": "<b>M. M. Billa</b> (sole author) · <i>Scientometrics</i> · 2026",
+            "authorsHtml": "<b>M. M. Billa</b> (sole author) · <i>Scientometrics</i> · 2026 · DOI: <a href=\"https://doi.org/10.21203/rs.3.rs-11264021/v1\" target=\"_blank\" rel=\"noopener\">10.21203/rs.3.rs-11264021/v1</a>",
             "note": "Modern biomedical papers run on software that is usually mentioned in passing rather than cited. This study maps those software mentions across the literature and examines sentence-level citation marking — where in a paper credit is given, and what that placement says about how scholarly credit actually flows."
           },
           {
