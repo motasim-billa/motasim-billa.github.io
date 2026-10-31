@@ -18,6 +18,8 @@
     --line:#e7e0d1; --line-2:#ddd5c2;
     --maroon:#7a1f2e; --maroon-2:#5e1622; --navy:#1b3556; --gold:#b9975b;
     --chip:#efe9db; --shadow:0 10px 28px rgba(23,32,51,.07);
+    --status-review-bg:#fef08a; --status-review-text:#713f12; --status-review-border:#eab308;
+    --status-accepted-bg:#bbf7d0; --status-accepted-text:#14532d; --status-accepted-border:#22c55e;
     --frame-shadow:0 2px 6px rgba(23,32,51,.08),0 14px 30px rgba(23,32,51,.08);
   }
   @media (prefers-color-scheme: dark){
@@ -27,6 +29,8 @@
       --line:#2a3246; --line-2:#343e57;
       --maroon:#e08a97; --maroon-2:#f0aab4; --navy:#9db8dd; --gold:#cbb07a;
       --chip:#232b3e; --shadow:0 10px 28px rgba(0,0,0,.35);
+      --status-review-bg:#854d0e; --status-review-text:#fef9c3; --status-review-border:#ca8a04;
+      --status-accepted-bg:#14532d; --status-accepted-text:#dcfce7; --status-accepted-border:#16a34a;
       --frame-shadow:0 2px 6px rgba(0,0,0,.4),0 14px 30px rgba(0,0,0,.35);
     }
   }
@@ -97,7 +101,9 @@
   .pub-entry .pa{margin:5px 0 0;font-size:14.5px;color:var(--muted)}
   .pub-entry .pa b{color:var(--text)}
   .pub-entry .pub-note{margin:5px 0 0;font-size:13.5px;color:var(--faint);max-width:880px}
-  .status{display:inline-block;font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;font-weight:500;padding:2px 8px;border-radius:999px;background:var(--chip);color:var(--maroon);margin-left:8px;vertical-align:2px;white-space:nowrap}
+  .status{display:inline-block;font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;font-weight:600;padding:2px 8px;border-radius:999px;background:var(--chip);color:var(--maroon);margin-left:8px;vertical-align:2px;white-space:nowrap;border:1px solid transparent}
+  .status--review{background:var(--status-review-bg);color:var(--status-review-text);border-color:var(--status-review-border)}
+  .status--accepted{background:var(--status-accepted-bg);color:var(--status-accepted-text);border-color:var(--status-accepted-border)}
   .ptype{display:inline-block;font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;font-weight:600;padding:2px 8px;border-radius:4px;border:1px solid var(--line-2);background:var(--surface-2);color:var(--navy);margin-left:8px;vertical-align:2px;white-space:nowrap}
   /* research */
   .research-list{display:grid;grid-template-columns:1fr 1fr;gap:6px 36px}
@@ -292,6 +298,12 @@
     return '<div class="view-head">'+(folio?'<span class="folio">'+esc(folio)+'</span>':'')+'<h2>'+esc(heading)+'</h2>'
       +(intro?'<p>'+esc(intro)+'</p>':'')+'</div>';
   }
+  function statusClass(s){
+    var t=String(s||'').toLowerCase();
+    if(t.indexOf('under review')>=0) return ' status--review';
+    if(t.indexOf('accepted')>=0) return ' status--accepted';
+    return '';
+  }
 
   function render(D){
     var P=D.profile;
@@ -336,7 +348,7 @@
               : esc(e.title);
             return '<div class="pub-entry"><span class="pt">'+titleHtml
               +(e.type?'<span class="ptype">'+esc(e.type)+'</span>':'')
-              +(e.status?'<span class="status">'+esc(e.status)+'</span>':'')
+              +(e.status?'<span class="status'+statusClass(e.status)+'">'+esc(e.status)+'</span>':'')
               +'</span><p class="pa">'+e.authorsHtml+'</p>'
               +'<p class="pub-note">'+esc(e.note)+'</p></div>';
           }).join('')+'</div>';
