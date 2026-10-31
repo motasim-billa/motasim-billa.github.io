@@ -1,5 +1,4 @@
 # Pages CMS configuration (pagescms.org)
-
 # Sign in at app.pagescms.org with GitHub, open this repository, and edit the
 # site's content through forms. All content lives in one file —
 # assets/content.json — which the site loads and renders. Saving in the CMS
@@ -12,7 +11,6 @@
 # list: true and its own fields list, so the panel renders each item as an
 # expandable, individually editable card. Lists of plain text lines are
 # type: string with list: true.
-
 media:
   input: assets
   output: /assets
@@ -106,6 +104,10 @@ content:
                   - name: note
                     label: Short descriptive note
                     type: text
+                  - name: link
+                    label: Link URL (e.g. DOI link — makes the title clickable, leave empty for none)
+                    type: string
+                    required: false
           - name: note
             label: Closing note under the list
             type: text
@@ -129,32 +131,6 @@ content:
             label: Intro paragraphs (HTML — <i>…</i> italicises newspaper names, <b>…</b> is bold)
             type: string
             list: true
-          - name: factCheckIntro
-            label: Fact-check tab — intro line above the cards
-            type: text
-          - name: factChecks
-            label: Fact-check articles (The Dissent — shown on the Fact Check tab, in display order)
-            type: object
-            list: true
-            fields:
-              - name: title
-                label: Title
-                type: string
-              - name: meta
-                label: Meta line (section · source, e.g. “Digital investigations · The Dissent”)
-                type: string
-              - name: summary
-                label: One-sentence summary
-                type: text
-              - name: url
-                label: Article URL on The Dissent (the card links here)
-                type: string
-              - name: image
-                label: Cover photo
-                type: image
-              - name: imageAlt
-                label: Cover photo description (alt text)
-                type: text
           - name: articles
             label: Newspaper articles (in display order — the first one is the wide featured card)
             type: object
