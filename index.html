@@ -40,7 +40,9 @@
   /* header */
   header.site{position:sticky;top:0;z-index:20;background:color-mix(in srgb, var(--bg) 92%, transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
   .nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:13px 0}
-  .brand{display:flex;align-items:center;gap:12px;min-width:0}
+  .brand{display:flex;align-items:center;gap:12px;min-width:0;color:inherit;text-decoration:none;border-radius:10px}
+  .brand:hover{text-decoration:none;color:inherit}
+  .brand:focus-visible{outline:2px solid var(--maroon);outline-offset:3px}
   .monogram{width:40px;height:40px;border-radius:10px;background:var(--maroon);color:#fff;display:grid;place-items:center;font-family:"Newsreader",serif;font-weight:700;font-size:17px;flex-shrink:0}
   @media (prefers-color-scheme: dark){.monogram{background:#7a2436}}
   .brand b{display:block;font-size:15px;line-height:1.1;white-space:nowrap}
@@ -160,11 +162,7 @@
   .cv-table th{text-align:left;font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);font-weight:500;padding:9px 12px 9px 0;border-bottom:1px solid var(--line);width:32%;vertical-align:top}
   .cv-table td{padding:9px 0;border-bottom:1px solid var(--line);vertical-align:top;overflow-wrap:break-word}
   .cv-table tr:last-child th,.cv-table tr:last-child td{border-bottom:none}
-  .checklist{list-style:none;margin:0;padding:0;display:grid;gap:9px;font-size:14.5px}
-  .checklist li{display:flex;gap:10px}
-  .checklist li::before{content:"○";color:var(--maroon);font-weight:700;flex-shrink:0}
-  .checklist li.done::before{content:"●";color:#2e7d4f}
-  .side-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+  .side-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:0}
   .side-links a,.side-links span{font-size:13px;font-weight:600;padding:7px 10px;border-radius:999px;border:1px solid var(--line);background:var(--surface-2);color:var(--text)}
   .side-links span{color:var(--muted);border-style:dashed;font-weight:500}
   /* contact */
@@ -229,13 +227,13 @@
 
 <header class="site">
   <div class="wrap nav">
-    <div class="brand">
+    <a class="brand" href="#about" data-view-link="about" aria-label="Md Motasim Billa — home">
       <div class="monogram" aria-hidden="true">MB</div>
       <div>
         <b id="brandName">Md Motasim Billa</b>
         <small id="brandTagline">Information Science · UA Little Rock</small>
       </div>
-    </div>
+    </a>
     <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
     <nav class="links" id="navLinks" aria-label="Primary">
       <a href="#about" data-view-link="about" class="active">About</a>
@@ -422,9 +420,7 @@
       viewHead(V.folio,V.heading,null)
       +'<div class="cv-grid"><table class="cv-table">'
       +V.rows.map(function(r){return '<tr><th>'+esc(r.label)+'</th><td>'+r.valueHtml+'</td></tr>';}).join('')
-      +'</table><div><ul class="checklist">'
-      +V.checklist.map(function(i){return '<li'+(i.done?' class="done"':'')+'>'+esc(i.text)+'</li>';}).join('')
-      +'</ul><div class="side-links">'
+      +'</table><div><div class="side-links">'
       +V.profileLinks.map(function(l){return '<a href="'+escA(l.url)+'" target="_blank" rel="noopener">'+esc(l.label)+'</a>';}).join('')
       +V.pendingLinks.map(function(x){return '<span title="'+escA(x.title)+'">'+esc(x.label)+'</span>';}).join('')
       +'</div>'
