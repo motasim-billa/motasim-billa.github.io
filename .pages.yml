@@ -49,6 +49,12 @@ content:
           - name: linkedin
             label: LinkedIn profile URL
             type: string
+          - name: orcid
+            label: ORCID profile URL
+            type: string
+          - name: researchgate
+            label: ResearchGate profile URL
+            type: string
           - name: copyright
             label: Footer — copyright line
             type: string
