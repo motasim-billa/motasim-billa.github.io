@@ -879,36 +879,6 @@
         "valueHtml": "<a href=\"mailto:mbilla@ualr.edu\">mbilla@ualr.edu</a> · <a href=\"https://www.linkedin.com/in/motasimbilla13\" target=\"_blank\" rel=\"noopener\">LinkedIn</a> · <a href=\"https://orcid.org/0009-0009-6963-8081\" target=\"_blank\" rel=\"noopener\">ORCID</a> · <a href=\"https://www.researchgate.net/profile/Md-Motasim-Billa\" target=\"_blank\" rel=\"noopener\">ResearchGate</a> · <a href=\"https://github.com/motasim-billa\" target=\"_blank\" rel=\"noopener\">github.com/motasim-billa</a>"
       }
     ],
-    "checklist": [
-      {
-        "text": "Name, affiliation & academic email",
-        "done": true
-      },
-      {
-        "text": "Publications, research interests & newspaper archive",
-        "done": true
-      },
-      {
-        "text": "Full CV (PDF) — added",
-        "done": true
-      },
-      {
-        "text": "LinkedIn link — added",
-        "done": true
-      },
-      {
-        "text": "Add headshot photo",
-        "done": false
-      },
-      {
-        "text": "ORCID & ResearchGate links — added",
-        "done": true
-      },
-      {
-        "text": "Add Google Scholar link",
-        "done": false
-      }
-    ],
     "profileLinks": [
       {
         "label": "LinkedIn ↗",
