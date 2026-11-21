@@ -347,7 +347,7 @@
       +(P.orcid?'<a class="btn" href="'+escA(P.orcid)+'" target="_blank" rel="noopener">ORCID ↗</a>':'')
       +(P.researchgate?'<a class="btn" href="'+escA(P.researchgate)+'" target="_blank" rel="noopener">ResearchGate ↗</a>':'')
       +'</div></div>'
-      +(P.portrait?'<figure class="portrait"><img src="'+escA(P.portrait)+'" alt="'+escA(P.portraitAlt||P.name)+'" width="320" height="427"><figcaption><span class="p-name">'+esc(P.name)+'</span><span class="p-role">'+esc(P.tagline)+'</span></figcaption></figure>':'')
+      +(P.portrait?'<figure class="portrait"><img src="'+escA(P.portrait)+'" alt="'+escA(P.portraitAlt||P.name)+'" width="320" height="427"></figure>':'')
       +'</div></div>';
 
     /* Publications */
